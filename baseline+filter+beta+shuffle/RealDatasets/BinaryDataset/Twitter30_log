@@ -1,0 +1,1972 @@
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 16
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:16384
+Starting TopK with Npow:30 K:1 alpha:16DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements16384
+Current Digit:3
+
+KDigit255
+BelowCount:11312
+Kcount:5072
+Current Digit:2
+
+KDigit229
+BelowCount:15824
+Kcount:560
+Current Digit:1
+
+KDigit108
+BelowCount:15824
+Kcount:560
+Current Digit:0
+
+KDigit0
+BelowCount:15824
+Kcount:560
+Number of subranges in first sweep:0
+Total time of radix_select Inplace_firstTopk(Phase II):0.166893 ms
+New Concatenated Size: 1
+Time for concatenation:2.73299 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements1
+Current Digit:3
+
+KDigit255
+BelowCount:0
+Kcount:1
+Current Digit:2
+
+KDigit229
+BelowCount:0
+Kcount:1
+Current Digit:1
+
+KDigit108
+BelowCount:0
+Kcount:1
+Current Digit:0
+
+KDigit0
+BelowCount:0
+Kcount:1
+Total time of radix_select Inplace(Phase II):0.120878 ms
+The kth element from top is:4293225472
+Sampling Time:4.13918 ms
+Time for First TopK:0.173807 ms
+Time for Concatenation:2.73299 ms
+Time for Second TopK:0.123024 ms
+Time for Normal Radix Select:0 ms
+Total Time:7.2062 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 16
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:16384
+Starting TopK with Npow:30 K:2 alpha:16DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements16384
+Current Digit:3
+
+KDigit255
+BelowCount:11312
+Kcount:5072
+Current Digit:2
+
+KDigit229
+BelowCount:15824
+Kcount:560
+Current Digit:1
+
+KDigit108
+BelowCount:15824
+Kcount:560
+Current Digit:0
+
+KDigit0
+BelowCount:15824
+Kcount:560
+Number of subranges in first sweep:0
+Total time of radix_select Inplace_firstTopk(Phase II):0.150919 ms
+New Concatenated Size: 2
+Time for concatenation:2.34008 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements2
+Current Digit:3
+
+KDigit255
+BelowCount:0
+Kcount:2
+Current Digit:2
+
+KDigit229
+BelowCount:0
+Kcount:2
+Current Digit:1
+
+KDigit108
+BelowCount:0
+Kcount:2
+Current Digit:0
+
+KDigit0
+BelowCount:0
+Kcount:2
+Total time of radix_select Inplace(Phase II):0.102997 ms
+The kth element from top is:4293225472
+Sampling Time:4.13299 ms
+Time for First TopK:0.155926 ms
+Time for Concatenation:2.34008 ms
+Time for Second TopK:0.104904 ms
+Time for Normal Radix Select:0 ms
+Total Time:6.76799 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 15
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:32768
+Starting TopK with Npow:30 K:4 alpha:15DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements32768
+Current Digit:3
+
+KDigit255
+BelowCount:27008
+Kcount:5760
+Current Digit:2
+
+KDigit229
+BelowCount:32208
+Kcount:560
+Current Digit:1
+
+KDigit108
+BelowCount:32208
+Kcount:560
+Current Digit:0
+
+KDigit0
+BelowCount:32208
+Kcount:560
+Number of subranges in first sweep:0
+Total time of radix_select Inplace_firstTopk(Phase II):0.152826 ms
+New Concatenated Size: 4
+Time for concatenation:1.94216 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements4
+Current Digit:3
+
+KDigit255
+BelowCount:0
+Kcount:4
+Current Digit:2
+
+KDigit229
+BelowCount:0
+Kcount:4
+Current Digit:1
+
+KDigit108
+BelowCount:0
+Kcount:4
+Current Digit:0
+
+KDigit0
+BelowCount:0
+Kcount:4
+Total time of radix_select Inplace(Phase II):0.118017 ms
+The kth element from top is:4293225472
+Sampling Time:4.01211 ms
+Time for First TopK:0.159025 ms
+Time for Concatenation:1.94216 ms
+Time for Second TopK:0.120878 ms
+Time for Normal Radix Select:0 ms
+Total Time:6.26993 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 15
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:32768
+Starting TopK with Npow:30 K:8 alpha:15DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements32768
+Current Digit:3
+
+KDigit255
+BelowCount:27008
+Kcount:5760
+Current Digit:2
+
+KDigit229
+BelowCount:32208
+Kcount:560
+Current Digit:1
+
+KDigit108
+BelowCount:32208
+Kcount:560
+Current Digit:0
+
+KDigit0
+BelowCount:32208
+Kcount:560
+Number of subranges in first sweep:0
+Total time of radix_select Inplace_firstTopk(Phase II):0.159025 ms
+New Concatenated Size: 8
+Time for concatenation:2.06494 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements8
+Current Digit:3
+
+KDigit255
+BelowCount:0
+Kcount:8
+Current Digit:2
+
+KDigit229
+BelowCount:0
+Kcount:8
+Current Digit:1
+
+KDigit108
+BelowCount:0
+Kcount:8
+Current Digit:0
+
+KDigit0
+BelowCount:0
+Kcount:8
+Total time of radix_select Inplace(Phase II):0.105143 ms
+The kth element from top is:4293225472
+Sampling Time:4.02403 ms
+Time for First TopK:0.164986 ms
+Time for Concatenation:2.06494 ms
+Time for Second TopK:0.108004 ms
+Time for Normal Radix Select:0 ms
+Total Time:6.39796 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 14
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:65536
+Starting TopK with Npow:30 K:16 alpha:14DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements65536
+Current Digit:3
+
+KDigit255
+BelowCount:59376
+Kcount:6160
+Current Digit:2
+
+KDigit229
+BelowCount:64960
+Kcount:576
+Current Digit:1
+
+KDigit108
+BelowCount:64960
+Kcount:576
+Current Digit:0
+
+KDigit0
+BelowCount:64960
+Kcount:576
+Number of subranges in first sweep:0
+Total time of radix_select Inplace_firstTopk(Phase II):0.158072 ms
+New Concatenated Size: 18
+Time for concatenation:3.05891 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements18
+Current Digit:3
+
+KDigit255
+BelowCount:0
+Kcount:18
+Current Digit:2
+
+KDigit229
+BelowCount:0
+Kcount:18
+Current Digit:1
+
+KDigit108
+BelowCount:0
+Kcount:18
+Current Digit:0
+
+KDigit0
+BelowCount:0
+Kcount:18
+Total time of radix_select Inplace(Phase II):0.105143 ms
+The kth element from top is:4293225472
+Sampling Time:4.0288 ms
+Time for First TopK:0.164032 ms
+Time for Concatenation:3.05891 ms
+Time for Second TopK:0.108004 ms
+Time for Normal Radix Select:0 ms
+Total Time:7.39789 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 14
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:65536
+Starting TopK with Npow:30 K:32 alpha:14DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements65536
+Current Digit:3
+
+KDigit255
+BelowCount:59376
+Kcount:6160
+Current Digit:2
+
+KDigit229
+BelowCount:64960
+Kcount:576
+Current Digit:1
+
+KDigit108
+BelowCount:64960
+Kcount:576
+Current Digit:0
+
+KDigit0
+BelowCount:64960
+Kcount:576
+Number of subranges in first sweep:0
+Total time of radix_select Inplace_firstTopk(Phase II):0.155926 ms
+New Concatenated Size: 35
+Time for concatenation:1.8239 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements35
+Current Digit:3
+
+KDigit255
+BelowCount:0
+Kcount:35
+Current Digit:2
+
+KDigit229
+BelowCount:0
+Kcount:35
+Current Digit:1
+
+KDigit108
+BelowCount:0
+Kcount:35
+Current Digit:0
+
+KDigit0
+BelowCount:0
+Kcount:35
+Total time of radix_select Inplace(Phase II):0.108004 ms
+The kth element from top is:4293225472
+Sampling Time:4.02617 ms
+Time for First TopK:0.161886 ms
+Time for Concatenation:1.8239 ms
+Time for Second TopK:0.110149 ms
+Time for Normal Radix Select:0 ms
+Total Time:6.15811 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 13
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:131072
+Starting TopK with Npow:30 K:64 alpha:13DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements131072
+Current Digit:3
+
+KDigit255
+BelowCount:124640
+Kcount:6432
+Current Digit:2
+
+KDigit229
+BelowCount:130480
+Kcount:592
+Current Digit:1
+
+KDigit108
+BelowCount:130480
+Kcount:592
+Current Digit:0
+
+KDigit0
+BelowCount:130480
+Kcount:592
+Number of subranges in first sweep:0
+Total time of radix_select Inplace_firstTopk(Phase II):0.156879 ms
+New Concatenated Size: 66
+Time for concatenation:1.75619 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements66
+Current Digit:3
+
+KDigit255
+BelowCount:0
+Kcount:66
+Current Digit:2
+
+KDigit229
+BelowCount:0
+Kcount:66
+Current Digit:1
+
+KDigit108
+BelowCount:0
+Kcount:66
+Current Digit:0
+
+KDigit0
+BelowCount:0
+Kcount:66
+Total time of radix_select Inplace(Phase II):0.102043 ms
+The kth element from top is:4293225472
+Sampling Time:4.0431 ms
+Time for First TopK:0.163078 ms
+Time for Concatenation:1.75619 ms
+Time for Second TopK:0.104189 ms
+Time for Normal Radix Select:0 ms
+Total Time:6.10018 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 13
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:131072
+Starting TopK with Npow:30 K:128 alpha:13DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements131072
+Current Digit:3
+
+KDigit255
+BelowCount:124640
+Kcount:6432
+Current Digit:2
+
+KDigit229
+BelowCount:130480
+Kcount:592
+Current Digit:1
+
+KDigit108
+BelowCount:130480
+Kcount:592
+Current Digit:0
+
+KDigit0
+BelowCount:130480
+Kcount:592
+Number of subranges in first sweep:0
+Total time of radix_select Inplace_firstTopk(Phase II):0.170946 ms
+New Concatenated Size: 132
+Time for concatenation:1.83606 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements132
+Current Digit:3
+
+KDigit255
+BelowCount:0
+Kcount:132
+Current Digit:2
+
+KDigit229
+BelowCount:0
+Kcount:132
+Current Digit:1
+
+KDigit108
+BelowCount:0
+Kcount:132
+Current Digit:0
+
+KDigit0
+BelowCount:0
+Kcount:132
+Total time of radix_select Inplace(Phase II):0.103951 ms
+The kth element from top is:4293225472
+Sampling Time:4.04596 ms
+Time for First TopK:0.178099 ms
+Time for Concatenation:1.83606 ms
+Time for Second TopK:0.106096 ms
+Time for Normal Radix Select:0 ms
+Total Time:6.20103 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 12
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:262144
+Starting TopK with Npow:30 K:256 alpha:12DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements262144
+Current Digit:3
+
+KDigit255
+BelowCount:255632
+Kcount:6512
+Current Digit:2
+
+KDigit229
+BelowCount:261552
+Kcount:592
+Current Digit:1
+
+KDigit108
+BelowCount:261552
+Kcount:592
+Current Digit:0
+
+KDigit0
+BelowCount:261552
+Kcount:592
+Number of subranges in first sweep:0
+Total time of radix_select Inplace_firstTopk(Phase II):0.185013 ms
+New Concatenated Size: 264
+Time for concatenation:1.86515 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements264
+Current Digit:3
+
+KDigit255
+BelowCount:0
+Kcount:264
+Current Digit:2
+
+KDigit229
+BelowCount:0
+Kcount:264
+Current Digit:1
+
+KDigit108
+BelowCount:0
+Kcount:264
+Current Digit:0
+
+KDigit0
+BelowCount:0
+Kcount:264
+Total time of radix_select Inplace(Phase II):0.110149 ms
+The kth element from top is:4293225472
+Sampling Time:4.08816 ms
+Time for First TopK:0.190973 ms
+Time for Concatenation:1.86515 ms
+Time for Second TopK:0.120163 ms
+Time for Normal Radix Select:0 ms
+Total Time:6.30116 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 12
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:262144
+Starting TopK with Npow:30 K:512 alpha:12DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements262144
+Current Digit:3
+
+KDigit255
+BelowCount:255632
+Kcount:6512
+Current Digit:2
+
+KDigit229
+BelowCount:261552
+Kcount:592
+Current Digit:1
+
+KDigit108
+BelowCount:261552
+Kcount:592
+Current Digit:0
+
+KDigit0
+BelowCount:261552
+Kcount:592
+Number of subranges in first sweep:0
+Total time of radix_select Inplace_firstTopk(Phase II):0.178099 ms
+New Concatenated Size: 527
+Time for concatenation:1.76001 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements527
+Current Digit:3
+
+KDigit255
+BelowCount:0
+Kcount:527
+Current Digit:2
+
+KDigit229
+BelowCount:0
+Kcount:527
+Current Digit:1
+
+KDigit108
+BelowCount:0
+Kcount:527
+Current Digit:0
+
+KDigit0
+BelowCount:0
+Kcount:527
+Total time of radix_select Inplace(Phase II):0.106096 ms
+The kth element from top is:4293225472
+Sampling Time:4.0741 ms
+Time for First TopK:0.18692 ms
+Time for Concatenation:1.76001 ms
+Time for Second TopK:0.108004 ms
+Time for Normal Radix Select:0 ms
+Total Time:6.16598 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 11
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:524288
+Starting TopK with Npow:30 K:1024 alpha:11DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements524288
+Current Digit:3
+
+KDigit255
+BelowCount:517712
+Kcount:6576
+Current Digit:2
+
+KDigit107
+BelowCount:517712
+Kcount:5984
+Current Digit:1
+
+KDigit90
+BelowCount:517712
+Kcount:5984
+Current Digit:0
+
+KDigit0
+BelowCount:517712
+Kcount:5984
+Number of subranges in first sweep:592
+Total time of radix_select Inplace_firstTopk(Phase II):0.225782 ms
+New Concatenated Size: 1067
+Time for concatenation:1.72687 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements1067
+Current Digit:3
+
+KDigit255
+BelowCount:0
+Kcount:1067
+Current Digit:2
+
+KDigit107
+BelowCount:0
+Kcount:459
+Current Digit:1
+
+KDigit90
+BelowCount:0
+Kcount:459
+Current Digit:0
+
+KDigit0
+BelowCount:0
+Kcount:459
+Total time of radix_select Inplace(Phase II):0.103951 ms
+The kth element from top is:4285225472
+Sampling Time:4.12703 ms
+Time for First TopK:0.232935 ms
+Time for Concatenation:1.72687 ms
+Time for Second TopK:0.106812 ms
+Time for Normal Radix Select:0 ms
+Total Time:6.23083 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 11
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:524288
+Starting TopK with Npow:30 K:2048 alpha:11DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements524288
+Current Digit:3
+
+KDigit255
+BelowCount:517712
+Kcount:6576
+Current Digit:2
+
+KDigit107
+BelowCount:517712
+Kcount:5984
+Current Digit:1
+
+KDigit90
+BelowCount:517712
+Kcount:5984
+Current Digit:0
+
+KDigit0
+BelowCount:517712
+Kcount:5984
+Number of subranges in first sweep:592
+Total time of radix_select Inplace_firstTopk(Phase II):0.220776 ms
+New Concatenated Size: 2118
+Time for concatenation:1.98603 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements2118
+Current Digit:3
+
+KDigit255
+BelowCount:0
+Kcount:2118
+Current Digit:2
+
+KDigit107
+BelowCount:0
+Kcount:1510
+Current Digit:1
+
+KDigit90
+BelowCount:0
+Kcount:1510
+Current Digit:0
+
+KDigit0
+BelowCount:0
+Kcount:1510
+Total time of radix_select Inplace(Phase II):0.112057 ms
+The kth element from top is:4285225472
+Sampling Time:4.13322 ms
+Time for First TopK:0.227928 ms
+Time for Concatenation:1.98603 ms
+Time for Second TopK:0.113964 ms
+Time for Normal Radix Select:0 ms
+Total Time:6.49905 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 10
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:1048576
+Starting TopK with Npow:30 K:4096 alpha:10DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements1048576
+Current Digit:3
+
+KDigit255
+BelowCount:1041936
+Kcount:6640
+Current Digit:2
+
+KDigit107
+BelowCount:1041936
+Kcount:6048
+Current Digit:1
+
+KDigit90
+BelowCount:1041936
+Kcount:6048
+Current Digit:0
+
+KDigit0
+BelowCount:1041936
+Kcount:6048
+Number of subranges in first sweep:592
+Total time of radix_select Inplace_firstTopk(Phase II):0.272036 ms
+New Concatenated Size: 4185
+Time for concatenation:1.97792 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements4185
+Current Digit:3
+
+KDigit255
+BelowCount:0
+Kcount:4185
+Current Digit:2
+
+KDigit107
+BelowCount:0
+Kcount:3577
+Current Digit:1
+
+KDigit90
+BelowCount:0
+Kcount:3577
+Current Digit:0
+
+KDigit0
+BelowCount:0
+Kcount:3577
+Total time of radix_select Inplace(Phase II):0.103951 ms
+The kth element from top is:4285225472
+Sampling Time:4.23503 ms
+Time for First TopK:0.280857 ms
+Time for Concatenation:1.97792 ms
+Time for Second TopK:0.10705 ms
+Time for Normal Radix Select:0 ms
+Total Time:6.639 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 10
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:1048576
+Starting TopK with Npow:30 K:8192 alpha:10DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements1048576
+Current Digit:3
+
+KDigit254
+BelowCount:732672
+Kcount:309264
+Current Digit:2
+
+KDigit241
+BelowCount:1003696
+Kcount:38224
+Current Digit:1
+
+KDigit72
+BelowCount:1003696
+Kcount:38224
+Current Digit:0
+
+KDigit0
+BelowCount:1003696
+Kcount:38224
+Number of subranges in first sweep:6656
+Total time of radix_select Inplace_firstTopk(Phase II):0.327826 ms
+New Concatenated Size: 8572
+Time for concatenation:1.91712 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements8572
+Current Digit:3
+
+KDigit254
+BelowCount:0
+Kcount:1804
+Current Digit:2
+
+KDigit241
+BelowCount:0
+Kcount:1788
+Current Digit:1
+
+KDigit72
+BelowCount:0
+Kcount:1788
+Current Digit:0
+
+KDigit0
+BelowCount:0
+Kcount:1788
+Total time of radix_select Inplace(Phase II):0.103951 ms
+The kth element from top is:4277225472
+Sampling Time:4.21095 ms
+Time for First TopK:0.334978 ms
+Time for Concatenation:1.91712 ms
+Time for Second TopK:0.106812 ms
+Time for Normal Radix Select:0 ms
+Total Time:6.60992 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 9
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:2097152
+Starting TopK with Npow:30 K:16384 alpha:9DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements2097152
+Current Digit:3
+
+KDigit254
+BelowCount:1748752
+Kcount:341680
+Current Digit:2
+
+KDigit241
+BelowCount:2051472
+Kcount:38944
+Current Digit:1
+
+KDigit72
+BelowCount:2051472
+Kcount:38944
+Current Digit:0
+
+KDigit0
+BelowCount:2051472
+Kcount:38944
+Number of subranges in first sweep:6736
+Total time of radix_select Inplace_firstTopk(Phase II):0.539064 ms
+New Concatenated Size: 16734
+Time for concatenation:1.9269 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements16734
+Current Digit:3
+
+KDigit254
+BelowCount:0
+Kcount:9966
+Current Digit:2
+
+KDigit241
+BelowCount:0
+Kcount:9950
+Current Digit:1
+
+KDigit72
+BelowCount:0
+Kcount:9950
+Current Digit:0
+
+KDigit0
+BelowCount:0
+Kcount:9950
+Total time of radix_select Inplace(Phase II):0.102997 ms
+The kth element from top is:4277225472
+Sampling Time:4.37188 ms
+Time for First TopK:0.545025 ms
+Time for Concatenation:1.9269 ms
+Time for Second TopK:0.104904 ms
+Time for Normal Radix Select:0 ms
+Total Time:6.99282 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 9
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:2097152
+Starting TopK with Npow:30 K:32768 alpha:9DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements2097152
+Current Digit:3
+
+KDigit254
+BelowCount:1748752
+Kcount:341680
+Current Digit:2
+
+KDigit241
+BelowCount:2051472
+Kcount:38944
+Current Digit:1
+
+KDigit72
+BelowCount:2051472
+Kcount:38944
+Current Digit:0
+
+KDigit0
+BelowCount:2051472
+Kcount:38944
+Number of subranges in first sweep:6736
+Total time of radix_select Inplace_firstTopk(Phase II):0.534058 ms
+New Concatenated Size: 33451
+Time for concatenation:2.59089 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements33451
+Current Digit:3
+
+KDigit254
+BelowCount:0
+Kcount:26683
+Current Digit:2
+
+KDigit241
+BelowCount:0
+Kcount:26667
+Current Digit:1
+
+KDigit72
+BelowCount:0
+Kcount:26667
+Current Digit:0
+
+KDigit0
+BelowCount:0
+Kcount:26667
+Total time of radix_select Inplace(Phase II):0.108004 ms
+The kth element from top is:4277225472
+Sampling Time:4.37713 ms
+Time for First TopK:0.540972 ms
+Time for Concatenation:2.59089 ms
+Time for Second TopK:0.110149 ms
+Time for Normal Radix Select:0 ms
+Total Time:7.68018 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 8
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:4194304
+Starting TopK with Npow:30 K:65536 alpha:8DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements4194304
+Current Digit:3
+
+KDigit254
+BelowCount:3827104
+Kcount:360480
+Current Digit:2
+
+KDigit119
+BelowCount:3827104
+Kcount:321216
+Current Digit:1
+
+KDigit54
+BelowCount:3827104
+Kcount:321216
+Current Digit:0
+
+KDigit0
+BelowCount:3827104
+Kcount:321216
+Number of subranges in first sweep:45984
+Total time of radix_select Inplace_firstTopk(Phase II):1.13702 ms
+New Concatenated Size: 71630
+Time for concatenation:1.94192 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements71630
+Current Digit:3
+
+KDigit254
+BelowCount:0
+Kcount:64862
+Current Digit:2
+
+KDigit119
+BelowCount:0
+Kcount:25022
+Current Digit:1
+
+KDigit54
+BelowCount:0
+Kcount:25022
+Current Digit:0
+
+KDigit0
+BelowCount:0
+Kcount:25022
+Total time of radix_select Inplace(Phase II):0.108004 ms
+The kth element from top is:4269225472
+Sampling Time:4.63796 ms
+Time for First TopK:1.14298 ms
+Time for Concatenation:1.94192 ms
+Time for Second TopK:0.110149 ms
+Time for Normal Radix Select:0 ms
+Total Time:7.86805 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 8
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:4194304
+Starting TopK with Npow:30 K:131072 alpha:8DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements4194304
+Current Digit:3
+
+KDigit254
+BelowCount:3827104
+Kcount:360480
+Current Digit:2
+
+KDigit119
+BelowCount:3827104
+Kcount:321216
+Current Digit:1
+
+KDigit54
+BelowCount:3827104
+Kcount:321216
+Current Digit:0
+
+KDigit0
+BelowCount:3827104
+Kcount:321216
+Number of subranges in first sweep:45984
+Total time of radix_select Inplace_firstTopk(Phase II):1.15085 ms
+New Concatenated Size: 141037
+Time for concatenation:1.90616 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements141037
+Current Digit:3
+
+KDigit254
+BelowCount:0
+Kcount:134269
+Current Digit:2
+
+KDigit119
+BelowCount:0
+Kcount:94429
+Current Digit:1
+
+KDigit54
+BelowCount:0
+Kcount:94429
+Current Digit:0
+
+KDigit0
+BelowCount:0
+Kcount:94429
+Total time of radix_select Inplace(Phase II):0.111818 ms
+The kth element from top is:4269225472
+Sampling Time:4.63605 ms
+Time for First TopK:1.158 ms
+Time for Concatenation:1.90616 ms
+Time for Second TopK:0.113964 ms
+Time for Normal Radix Select:0 ms
+Total Time:7.85398 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 7
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:8388608
+Starting TopK with Npow:30 K:262144 alpha:7DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements8388608
+Current Digit:3
+
+KDigit254
+BelowCount:8010864
+Kcount:371008
+Current Digit:2
+
+KDigit119
+BelowCount:8010864
+Kcount:331552
+Current Digit:1
+
+KDigit54
+BelowCount:8010864
+Kcount:331552
+Current Digit:0
+
+KDigit0
+BelowCount:8010864
+Kcount:331552
+Number of subranges in first sweep:46192
+Total time of radix_select Inplace_firstTopk(Phase II):1.92213 ms
+New Concatenated Size: 271698
+Time for concatenation:1.91998 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements271698
+Current Digit:3
+
+KDigit254
+BelowCount:0
+Kcount:264930
+Current Digit:2
+
+KDigit119
+BelowCount:0
+Kcount:225090
+Current Digit:1
+
+KDigit54
+BelowCount:0
+Kcount:225090
+Current Digit:0
+
+KDigit0
+BelowCount:0
+Kcount:225090
+Total time of radix_select Inplace(Phase II):0.119209 ms
+The kth element from top is:4269225472
+Sampling Time:5.05996 ms
+Time for First TopK:1.92904 ms
+Time for Concatenation:1.91998 ms
+Time for Second TopK:0.121117 ms
+Time for Normal Radix Select:0 ms
+Total Time:9.06706 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 7
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:8388608
+Starting TopK with Npow:30 K:524288 alpha:7DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements8388608
+Current Digit:3
+
+KDigit253
+BelowCount:6539664
+Kcount:1471200
+Current Digit:2
+
+KDigit253
+BelowCount:6540880
+Kcount:1469984
+Current Digit:1
+
+KDigit36
+BelowCount:6540880
+Kcount:1469984
+Current Digit:0
+
+KDigit0
+BelowCount:6540880
+Kcount:1469984
+Number of subranges in first sweep:377744
+Total time of radix_select Inplace_firstTopk(Phase II):2.28405 ms
+New Concatenated Size: 639298
+Time for concatenation:2.24209 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements639298
+Current Digit:3
+
+KDigit253
+BelowCount:0
+Kcount:248210
+Current Digit:2
+
+KDigit253
+BelowCount:0
+Kcount:248210
+Current Digit:1
+
+KDigit36
+BelowCount:0
+Kcount:248210
+Current Digit:0
+
+KDigit0
+BelowCount:0
+Kcount:248210
+Total time of radix_select Inplace(Phase II):0.141144 ms
+The kth element from top is:4261225472
+Sampling Time:5.05686 ms
+Time for First TopK:2.29001 ms
+Time for Concatenation:2.24209 ms
+Time for Second TopK:0.144005 ms
+Time for Normal Radix Select:0 ms
+Total Time:9.77087 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 6
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:16777216
+Starting TopK with Npow:30 K:1048576 alpha:6DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements16777216
+Current Digit:3
+
+KDigit253
+BelowCount:14801984
+Kcount:1591952
+Current Digit:2
+
+KDigit253
+BelowCount:14803344
+Kcount:1590592
+Current Digit:1
+
+KDigit36
+BelowCount:14803344
+Kcount:1590592
+Current Digit:0
+
+KDigit0
+BelowCount:14803344
+Kcount:1590592
+Number of subranges in first sweep:383280
+Total time of radix_select Inplace_firstTopk(Phase II):4.27413 ms
+New Concatenated Size: 1137940
+Time for concatenation:2.44188 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements1137940
+Current Digit:3
+
+KDigit253
+BelowCount:0
+Kcount:746852
+Current Digit:2
+
+KDigit253
+BelowCount:0
+Kcount:746852
+Current Digit:1
+
+KDigit36
+BelowCount:0
+Kcount:746852
+Current Digit:0
+
+KDigit0
+BelowCount:0
+Kcount:746852
+Total time of radix_select Inplace(Phase II):0.179052 ms
+The kth element from top is:4261225472
+Sampling Time:6.06585 ms
+Time for First TopK:4.28009 ms
+Time for Concatenation:2.44188 ms
+Time for Second TopK:0.181913 ms
+Time for Normal Radix Select:0 ms
+Total Time:13.0091 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 6
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:16777216
+Starting TopK with Npow:30 K:2097152 alpha:6DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements16777216
+Current Digit:3
+
+KDigit251
+BelowCount:12337760
+Kcount:2383632
+Current Digit:2
+
+KDigit154
+BelowCount:14187952
+Kcount:533440
+Current Digit:1
+
+KDigit202
+BelowCount:14187952
+Kcount:533440
+Current Digit:0
+
+KDigit0
+BelowCount:14187952
+Kcount:533440
+Number of subranges in first sweep:2055824
+Total time of radix_select Inplace_firstTopk(Phase II):3.90697 ms
+New Concatenated Size: 2336208
+Time for concatenation:3.39103 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements2336208
+Current Digit:3
+
+KDigit253
+BelowCount:217760
+Kcount:1727360
+Current Digit:2
+
+KDigit253
+BelowCount:219312
+Kcount:1725808
+Current Digit:1
+
+KDigit36
+BelowCount:219312
+Kcount:1725808
+Current Digit:0
+
+KDigit0
+BelowCount:219312
+Kcount:1725808
+Total time of radix_select Inplace(Phase II):0.329018 ms
+The kth element from top is:4261225472
+Sampling Time:6.08897 ms
+Time for First TopK:3.91412 ms
+Time for Concatenation:3.39103 ms
+Time for Second TopK:0.330925 ms
+Time for Normal Radix Select:0 ms
+Total Time:13.7639 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 5
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:33554432
+Starting TopK with Npow:30 K:4194304 alpha:5DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements67108864
+Current Digit:3
+
+KDigit251
+BelowCount:61922448
+Kcount:2979168
+Current Digit:2
+
+KDigit32
+BelowCount:61922448
+Kcount:2353280
+Current Digit:1
+
+KDigit184
+BelowCount:61922448
+Kcount:2353280
+Current Digit:0
+
+KDigit0
+BelowCount:61922448
+Kcount:2353280
+Total time of radix_select Inplace_firstTopk(Phase II):8.54897 ms
+New Concatenated Size: 9639088
+Time for concatenation:0.295162 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements9639088
+Current Digit:3
+
+KDigit251
+BelowCount:4424592
+Kcount:3003024
+Current Digit:2
+
+KDigit32
+BelowCount:4424592
+Kcount:2374208
+Current Digit:1
+
+KDigit184
+BelowCount:4424592
+Kcount:2374208
+Current Digit:0
+
+KDigit0
+BelowCount:4424592
+Kcount:2374208
+Total time of radix_select Inplace(Phase II):1.0252 ms
+The kth element from top is:4213225472
+Sampling Time:7.58886 ms
+Time for First TopK:8.55613 ms
+Time for Concatenation:0.295162 ms
+Time for Second TopK:1.02711 ms
+Time for Normal Radix Select:0 ms
+Total Time:17.499 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 5
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:33554432
+Starting TopK with Npow:30 K:8388608 alpha:5DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements67108864
+Current Digit:3
+
+KDigit248
+BelowCount:57442224
+Kcount:4296576
+Current Digit:2
+
+KDigit68
+BelowCount:57442224
+Kcount:3258912
+Current Digit:1
+
+KDigit76
+BelowCount:57442224
+Kcount:3258912
+Current Digit:0
+
+KDigit0
+BelowCount:57442224
+Kcount:3258912
+Total time of radix_select Inplace_firstTopk(Phase II):8.97098 ms
+New Concatenated Size: 17067312
+Time for concatenation:0.90003 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements17067312
+Current Digit:3
+
+KDigit248
+BelowCount:7258896
+Kcount:4407056
+Current Digit:2
+
+KDigit68
+BelowCount:7258896
+Kcount:3349712
+Current Digit:1
+
+KDigit76
+BelowCount:7258896
+Kcount:3349712
+Current Digit:0
+
+KDigit0
+BelowCount:7258896
+Kcount:3349712
+Total time of radix_select Inplace(Phase II):1.72997 ms
+The kth element from top is:4165225472
+Sampling Time:7.58505 ms
+Time for First TopK:8.97694 ms
+Time for Concatenation:0.90003 ms
+Time for Second TopK:1.73211 ms
+Time for Normal Radix Select:0 ms
+Total Time:19.2211 ms
+./exe num_element k NBitsPerDigit beta scoreFile output_file
+Size of unsigned int4
+num_element: 1073741824
+Calculated alpha: 4
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+0.000000
+Number of Subranges:67108864
+Starting TopK with Npow:30 K:16777216 alpha:4DistributionU(0,2^31-1)
+992000000
+Size of shared memory per block:33KB
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements134217728
+Current Digit:3
+
+KDigit240
+BelowCount:115613904
+Kcount:3800784
+Current Digit:2
+
+KDigit41
+BelowCount:115613904
+Kcount:2836160
+Current Digit:1
+
+KDigit26
+BelowCount:115613904
+Kcount:2836160
+Current Digit:0
+
+KDigit0
+BelowCount:115613904
+Kcount:2836160
+Total time of radix_select Inplace_firstTopk(Phase II):17.6101 ms
+New Concatenated Size: 33048512
+Time for concatenation:1.58906 ms
+The concatenation of the contributing subranges is done!
+
+
+Inside InPlace Radix Select(Phase II)
+Number of elements33048512
+Current Digit:3
+
+KDigit240
+BelowCount:14218864
+Kcount:3905248
+Current Digit:2
+
+KDigit41
+BelowCount:14218864
+Kcount:2916208
+Current Digit:1
+
+KDigit26
+BelowCount:14218864
+Kcount:2916208
+Current Digit:0
+
+KDigit0
+BelowCount:14218864
+Kcount:2916208
+Total time of radix_select Inplace(Phase II):3.31187 ms
+The kth element from top is:4029225472
+Sampling Time:8.68487 ms
+Time for First TopK:17.6191 ms
+Time for Concatenation:1.58906 ms
+Time for Second TopK:3.31497 ms
+Time for Normal Radix Select:0 ms
+Total Time:31.2378 ms
