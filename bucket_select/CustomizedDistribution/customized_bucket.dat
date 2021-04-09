@@ -1,0 +1,394 @@
+./exe num_element k NBucket
+Number of Subranges:16384
+1581388129
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:27.056 ms
+Time for finding bucket count & assignement of bucket to the elements:27.7078 ms
+Time for copying elements26.336 ms
+
+
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0469685 ms
+Time for selecting the top k element is:81.2831 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:16384
+2679044680
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:27.015 ms
+Time for finding bucket count & assignement of bucket to the elements:27.6718 ms
+Time for copying elements26.2909 ms
+
+
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0460148 ms
+Time for selecting the top k element is:81.1231 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:32768
+2846151312
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:27.04 ms
+Time for finding bucket count & assignement of bucket to the elements:27.7178 ms
+Time for copying elements26.355 ms
+
+
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0619888 ms
+Time for selecting the top k element is:81.2981 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:32768
+2653757035
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:27.0131 ms
+Time for finding bucket count & assignement of bucket to the elements:27.689 ms
+Time for copying elements26.2668 ms
+
+
+In Phase II: Inplace Bucket select
+Time for finding max min:0.043869 ms
+Time for selecting the top k element is:81.1131 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:65536
+2490872386
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:26.9802 ms
+Time for finding bucket count & assignement of bucket to the elements:27.6859 ms
+Time for copying elements26.3779 ms
+
+
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0460148 ms
+Time for selecting the top k element is:81.1949 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:65536
+247054445
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:27.072 ms
+Time for finding bucket count & assignement of bucket to the elements:27.663 ms
+Time for copying elements26.3169 ms
+
+
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0479221 ms
+Time for selecting the top k element is:81.218 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:131072
+213797637
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:27.01 ms
+Time for finding bucket count & assignement of bucket to the elements:27.6568 ms
+Time for copying elements26.32 ms
+
+
+In Phase II: Inplace Bucket select
+Time for finding max min:0.043869 ms
+Time for selecting the top k element is:81.1441 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:131072
+3450160135
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:27.0641 ms
+Time for finding bucket count & assignement of bucket to the elements:27.6439 ms
+Time for copying elements26.2518 ms
+
+
+In Phase II: Inplace Bucket select
+Time for finding max min:0.043869 ms
+Time for selecting the top k element is:81.11 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:262144
+558258269
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:27.2219 ms
+Time for finding bucket count & assignement of bucket to the elements:27.657 ms
+Time for copying elements26.3431 ms
+
+
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0429153 ms
+Time for selecting the top k element is:81.3689 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:262144
+3896592131
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:27.2069 ms
+Time for finding bucket count & assignement of bucket to the elements:27.715 ms
+Time for copying elements26.298 ms
+
+
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0448227 ms
+Time for selecting the top k element is:81.383 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:524288
+2786047630
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:27.024 ms
+Time for finding bucket count & assignement of bucket to the elements:27.7109 ms
+Time for copying elements26.264 ms
+
+
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0460148 ms
+Time for selecting the top k element is:81.1629 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:524288
+3454996666
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:27.0429 ms
+Time for finding bucket count & assignement of bucket to the elements:27.71 ms
+Time for copying elements26.4101 ms
+
+
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0510216 ms
+Time for selecting the top k element is:81.3401 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:1048576
+198236205
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:27.0669 ms
+Time for finding bucket count & assignement of bucket to the elements:27.7421 ms
+Time for copying elements26.2771 ms
+
+
+In Phase II: Inplace Bucket select
+Time for finding max min:0.043869 ms
+Time for selecting the top k element is:81.2418 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:1048576
+648335182
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:27.065 ms
+Time for finding bucket count & assignement of bucket to the elements:27.6771 ms
+Time for copying elements26.3629 ms
+
+
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0491142 ms
+Time for selecting the top k element is:81.3041 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:2097152
+2465808499
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:27.041 ms
+Time for finding bucket count & assignement of bucket to the elements:27.775 ms
+Time for copying elements26.2728 ms
+
+
+In Phase II: Inplace Bucket select
+Time for finding max min:0.043869 ms
+Time for selecting the top k element is:81.2459 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:2097152
+3020671490
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:26.9971 ms
+Time for finding bucket count & assignement of bucket to the elements:27.7371 ms
+Time for copying elements26.3071 ms
+
+
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0479221 ms
+Time for selecting the top k element is:81.2192 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:4194304
+1558541642
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:27.092 ms
+Time for finding bucket count & assignement of bucket to the elements:27.7169 ms
+Time for copying elements42.146 ms
+loop:1
+Time for finding max min:13.5422 ms
+Time for finding bucket count & assignement of bucket to the elements:14.025 ms
+Time for copying elements13.1631 ms
+
+
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0450611 ms
+Time for selecting the top k element is:139.674 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:4194304
+2444901576
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:27.02 ms
+Time for finding bucket count & assignement of bucket to the elements:27.715 ms
+Time for copying elements42.135 ms
+loop:1
+Time for finding max min:13.555 ms
+Time for finding bucket count & assignement of bucket to the elements:13.9999 ms
+Time for copying elements27.787 ms
+Time for selecting the top k element is:155.722 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:8388608
+3348644471
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:28.1291 ms
+Time for finding bucket count & assignement of bucket to the elements:27.6492 ms
+Time for copying elements42.1221 ms
+loop:1
+Time for finding max min:13.587 ms
+Time for finding bucket count & assignement of bucket to the elements:14.0421 ms
+Time for copying elements27.7219 ms
+Time for selecting the top k element is:156.84 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:8388608
+3705785995
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:26.988 ms
+Time for finding bucket count & assignement of bucket to the elements:27.766 ms
+Time for copying elements42.1491 ms
+loop:1
+Time for finding max min:13.5431 ms
+Time for finding bucket count & assignement of bucket to the elements:14.025 ms
+Time for copying elements27.7259 ms
+Time for selecting the top k element is:155.746 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:16777216
+655623478
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:27.0028 ms
+Time for finding bucket count & assignement of bucket to the elements:27.725 ms
+Time for copying elements42.0969 ms
+loop:1
+Time for finding max min:13.5338 ms
+Time for finding bucket count & assignement of bucket to the elements:13.999 ms
+Time for copying elements27.765 ms
+Time for selecting the top k element is:155.911 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:16777216
+415585232
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:26.999 ms
+Time for finding bucket count & assignement of bucket to the elements:27.7529 ms
+Time for copying elements42.093 ms
+loop:1
+Time for finding max min:13.5322 ms
+Time for finding bucket count & assignement of bucket to the elements:13.9949 ms
+Time for copying elements27.755 ms
+Time for selecting the top k element is:156.065 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:33554432
+3904414316
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:26.9802 ms
+Time for finding bucket count & assignement of bucket to the elements:27.71 ms
+Time for copying elements42.1128 ms
+loop:1
+Time for finding max min:13.5529 ms
+Time for finding bucket count & assignement of bucket to the elements:13.998 ms
+Time for copying elements27.787 ms
+Time for selecting the top k element is:155.637 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:33554432
+707935993
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:27.0281 ms
+Time for finding bucket count & assignement of bucket to the elements:27.663 ms
+Time for copying elements42.141 ms
+loop:1
+Time for finding max min:13.5949 ms
+Time for finding bucket count & assignement of bucket to the elements:13.9949 ms
+Time for copying elements27.77 ms
+Time for selecting the top k element is:155.794 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:33554432
+257582733
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:27.0021 ms
+Time for finding bucket count & assignement of bucket to the elements:27.7059 ms
+Time for copying elements42.1121 ms
+loop:1
+Time for finding max min:13.5241 ms
+Time for finding bucket count & assignement of bucket to the elements:13.9651 ms
+Time for copying elements27.745 ms
+Time for selecting the top k element is:155.73 ms
+The kth element from top is:0
+
+./exe num_element k NBucket
+Number of Subranges:33554432
+3814527275
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:27.1029 ms
+Time for finding bucket count & assignement of bucket to the elements:27.673 ms
+Time for copying elements42.14 ms
+loop:1
+Time for finding max min:13.576 ms
+Time for finding bucket count & assignement of bucket to the elements:13.994 ms
+Time for copying elements27.7541 ms
+Time for selecting the top k element is:155.879 ms
+The kth element from top is:0
+
