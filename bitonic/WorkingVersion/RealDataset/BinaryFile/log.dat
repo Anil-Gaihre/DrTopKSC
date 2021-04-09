@@ -1,0 +1,580 @@
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:4096
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+Time for first top-k: 0.157118 ms
+Original number:131072
+
+Time for concatenation: 2.06399 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:2.15197 ms
+timeforFirstTopk:0.176907 ms
+timeforConcatenation:2.06399 ms
+timeforSecondTopk:0.207901 ms
+totalTime:4.60076 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:4096
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+Time for first top-k: 0.157833 ms
+Original number:131072
+
+Time for concatenation: 2.06685 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:2.14791 ms
+timeforFirstTopk:0.17786 ms
+timeforConcatenation:2.0659 ms
+timeforSecondTopk:0.253916 ms
+totalTime:4.64559 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:4096
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+Time for first top-k: 0.174999 ms
+Original number:131072
+
+Time for concatenation: 2.06804 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:2.15793 ms
+timeforFirstTopk:0.193119 ms
+timeforConcatenation:2.06709 ms
+timeforSecondTopk:0.363111 ms
+totalTime:4.78125 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:4096
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+Time for first top-k: 0.174046 ms
+Original number:131072
+
+Time for concatenation: 2.08282 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:2.15697 ms
+timeforFirstTopk:0.194073 ms
+timeforConcatenation:2.08282 ms
+timeforSecondTopk:0.649929 ms
+totalTime:5.0838 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:4096
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+Time for first top-k: 0.169992 ms
+Original number:131072
+
+Time for concatenation: 2.13885 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:2.14195 ms
+timeforFirstTopk:0.187874 ms
+timeforConcatenation:2.13885 ms
+timeforSecondTopk:1.25504 ms
+totalTime:5.72371 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:4096
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:4096
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:4096
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:4096
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:4096
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:4096
+Number of Subranges:131072
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 734
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:256
+Number of Subranges:2097152
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+Time for first top-k: 0.607967 ms
+Original number:2097152
+
+Time for concatenation: 1.98817 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+
+
+timeforMaxsample:2.37322 ms
+timeforFirstTopk:0.627041 ms
+timeforConcatenation:1.98722 ms
+timeforSecondTopk:0.183105 ms
+totalTime:5.17058 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:256
+Number of Subranges:2097152
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:256
+Number of Subranges:2097152
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:256
+Number of Subranges:2097152
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:256
+Number of Subranges:2097152
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:256
+Number of Subranges:2097152
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:256
+Number of Subranges:2097152
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:256
+Number of Subranges:2097152
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:256
+Number of Subranges:2097152
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:256
+Number of Subranges:2097152
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+
+SubRangeSize:256
+Number of Subranges:2097152
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 734
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!

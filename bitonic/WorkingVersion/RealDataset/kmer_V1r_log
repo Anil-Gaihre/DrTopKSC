@@ -1,0 +1,11906 @@
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha
+wrong input
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+Inside loop:15
+Time for first top-k: 0.222921 ms
+Original number:131072
+
+Time for concatenation: 2.09093 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.633955 ms
+timeforFirstTopk:0.249147 ms
+timeforConcatenation:2.09093 ms
+timeforSecondTopk:0.123024 ms
+totalTime:3.09706 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+Time for first top-k: 0.209093 ms
+Original number:65536
+
+Time for concatenation: 2.34604 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.661135 ms
+timeforFirstTopk:0.239134 ms
+timeforConcatenation:2.34318 ms
+timeforSecondTopk:0.138998 ms
+totalTime:3.38244 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+Time for first top-k: 0.195026 ms
+Original number:32768
+
+Time for concatenation: 2.26998 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.650883 ms
+timeforFirstTopk:0.228167 ms
+timeforConcatenation:2.26903 ms
+timeforSecondTopk:0.148058 ms
+totalTime:3.29614 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+Time for first top-k: 0.175953 ms
+Original number:16384
+
+Time for concatenation: 2.26092 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.641108 ms
+timeforFirstTopk:0.200987 ms
+timeforConcatenation:2.25997 ms
+timeforSecondTopk:0.149965 ms
+totalTime:3.25203 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+Time for first top-k: 0.180006 ms
+Original number:8192
+
+Time for concatenation: 2.3458 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.657082 ms
+timeforFirstTopk:0.207901 ms
+timeforConcatenation:2.34389 ms
+timeforSecondTopk:0.174046 ms
+totalTime:3.38292 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+Time for first top-k: 0.154018 ms
+Original number:4096
+
+Time for concatenation: 2.4941 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.608921 ms
+timeforFirstTopk:0.178099 ms
+timeforConcatenation:2.49314 ms
+timeforSecondTopk:0.1719 ms
+totalTime:3.45206 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+Time for first top-k: 0.148058 ms
+Original number:2048
+
+Time for concatenation: 2.95305 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.665188 ms
+timeforFirstTopk:0.171185 ms
+timeforConcatenation:2.95091 ms
+timeforSecondTopk:0.193119 ms
+totalTime:3.9804 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+Time for first top-k: 0.230074 ms
+Original number:131072
+
+Time for concatenation: 2.1379 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.643969 ms
+timeforFirstTopk:0.262022 ms
+timeforConcatenation:2.13695 ms
+timeforSecondTopk:0.124931 ms
+totalTime:3.16787 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+Time for first top-k: 0.211 ms
+Original number:65536
+
+Time for concatenation: 2.27094 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.648975 ms
+timeforFirstTopk:0.239849 ms
+timeforConcatenation:2.26879 ms
+timeforSecondTopk:0.136137 ms
+totalTime:3.29375 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+Time for first top-k: 0.181913 ms
+Original number:32768
+
+Time for concatenation: 2.15912 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.627041 ms
+timeforFirstTopk:0.204802 ms
+timeforConcatenation:2.15793 ms
+timeforSecondTopk:0.141859 ms
+totalTime:3.13163 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+Time for first top-k: 0.183105 ms
+Original number:16384
+
+Time for concatenation: 2.33698 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.651836 ms
+timeforFirstTopk:0.2141 ms
+timeforConcatenation:2.33507 ms
+timeforSecondTopk:0.159979 ms
+totalTime:3.36099 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+Time for first top-k: 0.142813 ms
+Original number:8192
+
+Time for concatenation: 2.39801 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.60606 ms
+timeforFirstTopk:0.172853 ms
+timeforConcatenation:2.39801 ms
+timeforSecondTopk:0.154972 ms
+totalTime:3.3319 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+Time for first top-k: 0.151873 ms
+Original number:4096
+
+Time for concatenation: 2.58207 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.627995 ms
+timeforFirstTopk:0.179052 ms
+timeforConcatenation:2.57993 ms
+timeforSecondTopk:0.182867 ms
+totalTime:3.56984 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+Time for first top-k: 0.133991 ms
+Original number:2048
+
+Time for concatenation: 2.97499 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.638008 ms
+timeforFirstTopk:0.158072 ms
+timeforConcatenation:2.97284 ms
+timeforSecondTopk:0.193119 ms
+totalTime:3.96204 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+Time for first top-k: 0.222921 ms
+Original number:131072
+
+Time for concatenation: 2.8131 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.645161 ms
+timeforFirstTopk:0.246048 ms
+timeforConcatenation:2.81096 ms
+timeforSecondTopk:0.133991 ms
+totalTime:3.83615 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+Time for first top-k: 0.211954 ms
+Original number:65536
+
+Time for concatenation: 2.22516 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.636101 ms
+timeforFirstTopk:0.236034 ms
+timeforConcatenation:2.22301 ms
+timeforSecondTopk:0.143051 ms
+totalTime:3.2382 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+Time for first top-k: 0.173092 ms
+Original number:32768
+
+Time for concatenation: 2.16317 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.607014 ms
+timeforFirstTopk:0.200033 ms
+timeforConcatenation:2.16222 ms
+timeforSecondTopk:0.150919 ms
+totalTime:3.12018 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+Time for first top-k: 0.174999 ms
+Original number:16384
+
+Time for concatenation: 2.31314 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.650883 ms
+timeforFirstTopk:0.196934 ms
+timeforConcatenation:2.31218 ms
+timeforSecondTopk:0.184059 ms
+totalTime:3.34406 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+Time for first top-k: 0.178099 ms
+Original number:8192
+
+Time for concatenation: 2.39396 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.627995 ms
+timeforFirstTopk:0.200033 ms
+timeforConcatenation:2.39182 ms
+timeforSecondTopk:0.174999 ms
+totalTime:3.39484 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+Time for first top-k: 0.149965 ms
+Original number:4096
+
+Time for concatenation: 2.59304 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.644922 ms
+timeforFirstTopk:0.174046 ms
+timeforConcatenation:2.59209 ms
+timeforSecondTopk:0.203133 ms
+totalTime:3.61419 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+Time for first top-k: 0.134945 ms
+Original number:2048
+
+Time for concatenation: 3.06702 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.658035 ms
+timeforFirstTopk:0.16284 ms
+timeforConcatenation:3.06582 ms
+timeforSecondTopk:0.216007 ms
+totalTime:4.10271 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+Time for first top-k: 0.224113 ms
+Original number:131072
+
+Time for concatenation: 2.13218 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.648022 ms
+timeforFirstTopk:0.249147 ms
+timeforConcatenation:2.13099 ms
+timeforSecondTopk:0.134945 ms
+totalTime:3.1631 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+Time for first top-k: 0.190973 ms
+Original number:65536
+
+Time for concatenation: 2.20799 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.635862 ms
+timeforFirstTopk:0.212908 ms
+timeforConcatenation:2.20609 ms
+timeforSecondTopk:0.146151 ms
+totalTime:3.20101 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+Time for first top-k: 0.174999 ms
+Original number:32768
+
+Time for concatenation: 3.38006 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.631094 ms
+timeforFirstTopk:0.203133 ms
+timeforConcatenation:3.37911 ms
+timeforSecondTopk:0.157118 ms
+totalTime:4.37045 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+Time for first top-k: 0.162125 ms
+Original number:16384
+
+Time for concatenation: 2.33889 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.641108 ms
+timeforFirstTopk:0.247002 ms
+timeforConcatenation:2.33698 ms
+timeforSecondTopk:0.183105 ms
+totalTime:3.40819 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+Time for first top-k: 0.158072 ms
+Original number:8192
+
+Time for concatenation: 2.47717 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.647783 ms
+timeforFirstTopk:0.185013 ms
+timeforConcatenation:2.47502 ms
+timeforSecondTopk:0.184774 ms
+totalTime:3.49259 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+Time for first top-k: 0.151157 ms
+Original number:4096
+
+Time for concatenation: 2.599 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.632048 ms
+timeforFirstTopk:0.176191 ms
+timeforConcatenation:2.59709 ms
+timeforSecondTopk:0.211 ms
+totalTime:3.61633 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+Time for first top-k: 0.113964 ms
+Original number:2048
+
+Time for concatenation: 2.85101 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.640869 ms
+timeforFirstTopk:0.140905 ms
+timeforConcatenation:2.85006 ms
+timeforSecondTopk:0.234842 ms
+totalTime:3.86667 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+Time for first top-k: 0.188828 ms
+Original number:131072
+
+Time for concatenation: 2.03896 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.609875 ms
+timeforFirstTopk:0.217915 ms
+timeforConcatenation:2.038 ms
+timeforSecondTopk:0.129938 ms
+totalTime:2.99573 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+Time for first top-k: 0.185966 ms
+Original number:65536
+
+Time for concatenation: 2.22993 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.66185 ms
+timeforFirstTopk:0.216007 ms
+timeforConcatenation:2.22898 ms
+timeforSecondTopk:0.152111 ms
+totalTime:3.25894 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+Time for first top-k: 0.19908 ms
+Original number:32768
+
+Time for concatenation: 2.31218 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.643015 ms
+timeforFirstTopk:0.245094 ms
+timeforConcatenation:2.31004 ms
+timeforSecondTopk:0.169992 ms
+totalTime:3.36814 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+Time for first top-k: 0.160933 ms
+Original number:16384
+
+Time for concatenation: 2.27618 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.634909 ms
+timeforFirstTopk:0.190973 ms
+timeforConcatenation:2.27404 ms
+timeforSecondTopk:0.176907 ms
+totalTime:3.27682 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+Time for first top-k: 0.159979 ms
+Original number:8192
+
+Time for concatenation: 2.43902 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.628948 ms
+timeforFirstTopk:0.18692 ms
+timeforConcatenation:2.43711 ms
+timeforSecondTopk:0.198126 ms
+totalTime:3.45111 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+Time for first top-k: 0.147104 ms
+Original number:4096
+
+Time for concatenation: 3.00217 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.638962 ms
+timeforFirstTopk:0.173092 ms
+timeforConcatenation:3.00002 ms
+timeforSecondTopk:0.228882 ms
+totalTime:4.04096 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+Time for first top-k: 0.116825 ms
+Original number:2048
+
+Time for concatenation: 3.07512 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.664949 ms
+timeforFirstTopk:0.140905 ms
+timeforConcatenation:3.07417 ms
+timeforSecondTopk:0.298977 ms
+totalTime:4.179 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+Time for first top-k: 0.19908 ms
+Original number:131072
+
+Time for concatenation: 2.14291 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.646114 ms
+timeforFirstTopk:0.231028 ms
+timeforConcatenation:2.14195 ms
+timeforSecondTopk:0.141859 ms
+totalTime:3.16095 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+Time for first top-k: 0.196934 ms
+Original number:65536
+
+Time for concatenation: 2.24805 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.65589 ms
+timeforFirstTopk:0.22006 ms
+timeforConcatenation:2.2471 ms
+timeforSecondTopk:0.159979 ms
+totalTime:3.28302 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+Time for first top-k: 0.144958 ms
+Original number:32768
+
+Time for concatenation: 2.17795 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.605106 ms
+timeforFirstTopk:0.165939 ms
+timeforConcatenation:2.177 ms
+timeforSecondTopk:0.161171 ms
+totalTime:3.10922 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+Time for first top-k: 0.149012 ms
+Original number:16384
+
+Time for concatenation: 2.285 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.65589 ms
+timeforFirstTopk:0.176907 ms
+timeforConcatenation:2.28286 ms
+timeforSecondTopk:0.191927 ms
+totalTime:3.30758 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+Time for first top-k: 0.150919 ms
+Original number:8192
+
+Time for concatenation: 2.48408 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.658035 ms
+timeforFirstTopk:0.179052 ms
+timeforConcatenation:2.48313 ms
+timeforSecondTopk:0.227928 ms
+totalTime:3.54815 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+Time for first top-k: 0.121832 ms
+Original number:4096
+
+Time for concatenation: 2.64788 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.640869 ms
+timeforFirstTopk:0.148058 ms
+timeforConcatenation:2.64597 ms
+timeforSecondTopk:0.303984 ms
+totalTime:3.73888 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+Time for first top-k: 0.102043 ms
+Original number:2048
+
+Time for concatenation: 3.03602 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.629187 ms
+timeforFirstTopk:0.127077 ms
+timeforConcatenation:3.03507 ms
+timeforSecondTopk:0.448942 ms
+totalTime:4.24027 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+Time for first top-k: 0.191927 ms
+Original number:131072
+
+Time for concatenation: 2.13003 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.712872 ms
+timeforFirstTopk:0.216007 ms
+timeforConcatenation:2.12789 ms
+timeforSecondTopk:0.143051 ms
+totalTime:3.19982 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+Time for first top-k: 0.168085 ms
+Original number:65536
+
+Time for concatenation: 2.23684 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.66185 ms
+timeforFirstTopk:0.190973 ms
+timeforConcatenation:2.23589 ms
+timeforSecondTopk:0.154972 ms
+totalTime:3.24368 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+Time for first top-k: 0.172853 ms
+Original number:32768
+
+Time for concatenation: 2.33889 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.638008 ms
+timeforFirstTopk:0.201941 ms
+timeforConcatenation:2.33793 ms
+timeforSecondTopk:0.194073 ms
+totalTime:3.37195 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+Time for first top-k: 0.128984 ms
+Original number:16384
+
+Time for concatenation: 2.15387 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.617027 ms
+timeforFirstTopk:0.159979 ms
+timeforConcatenation:2.15292 ms
+timeforSecondTopk:0.217915 ms
+totalTime:3.14784 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+Time for first top-k: 0.128984 ms
+Original number:8192
+
+Time for concatenation: 2.37703 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.641108 ms
+timeforFirstTopk:0.15521 ms
+timeforConcatenation:2.37608 ms
+timeforSecondTopk:0.313997 ms
+totalTime:3.48639 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+Time for first top-k: 0.105858 ms
+Original number:4096
+
+Time for concatenation: 2.64692 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.628948 ms
+timeforFirstTopk:0.129938 ms
+timeforConcatenation:2.64692 ms
+timeforSecondTopk:0.458002 ms
+totalTime:3.86381 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+Time for first top-k: 0.0989437 ms
+Original number:2048
+
+Time for concatenation: 3.11708 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.692129 ms
+timeforFirstTopk:0.120163 ms
+timeforConcatenation:3.11589 ms
+timeforSecondTopk:0.775814 ms
+totalTime:4.704 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+Time for first top-k: 0.172138 ms
+Original number:131072
+
+Time for concatenation: 2.09713 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.616074 ms
+timeforFirstTopk:0.198126 ms
+timeforConcatenation:2.09594 ms
+timeforSecondTopk:0.153065 ms
+totalTime:3.0632 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+Time for first top-k: 0.174046 ms
+Original number:65536
+
+Time for concatenation: 2.23708 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.631094 ms
+timeforFirstTopk:0.200987 ms
+timeforConcatenation:2.23494 ms
+timeforSecondTopk:0.185966 ms
+totalTime:3.25298 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+Time for first top-k: 0.163078 ms
+Original number:32768
+
+Time for concatenation: 2.19679 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.645876 ms
+timeforFirstTopk:0.193119 ms
+timeforConcatenation:2.19488 ms
+timeforSecondTopk:0.224113 ms
+totalTime:3.25799 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+Time for first top-k: 0.132084 ms
+Original number:16384
+
+Time for concatenation: 2.21491 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.645161 ms
+timeforFirstTopk:0.159025 ms
+timeforConcatenation:2.21395 ms
+timeforSecondTopk:0.33021 ms
+totalTime:3.34835 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+Time for first top-k: 0.136852 ms
+Original number:8192
+
+Time for concatenation: 2.40612 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.647068 ms
+timeforFirstTopk:0.160933 ms
+timeforConcatenation:2.40517 ms
+timeforSecondTopk:0.497818 ms
+totalTime:3.71099 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+Time for first top-k: 0.0939369 ms
+Original number:4096
+
+Time for concatenation: 2.63906 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.637054 ms
+timeforFirstTopk:0.114918 ms
+timeforConcatenation:2.63786 ms
+timeforSecondTopk:0.838995 ms
+totalTime:4.22883 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+Time for first top-k: 0.0748634 ms
+Original number:2048
+
+Time for concatenation: 3.1178 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.619888 ms
+timeforFirstTopk:0.104904 ms
+timeforConcatenation:3.11685 ms
+timeforSecondTopk:1.5099 ms
+totalTime:5.35154 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+Time for first top-k: 0.20504 ms
+Original number:131072
+
+Time for concatenation: 2.14601 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.638962 ms
+timeforFirstTopk:0.231028 ms
+timeforConcatenation:2.14505 ms
+timeforSecondTopk:0.159979 ms
+totalTime:3.17502 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+Time for first top-k: 0.161886 ms
+Original number:65536
+
+Time for concatenation: 2.13099 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.642061 ms
+timeforFirstTopk:0.192881 ms
+timeforConcatenation:2.12884 ms
+timeforSecondTopk:0.200033 ms
+totalTime:3.16381 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+Time for first top-k: 0.141859 ms
+Original number:32768
+
+Time for concatenation: 2.19202 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.632048 ms
+timeforFirstTopk:0.164986 ms
+timeforConcatenation:2.19011 ms
+timeforSecondTopk:0.263929 ms
+totalTime:3.25108 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+Time for first top-k: 0.128031 ms
+Original number:16384
+
+Time for concatenation: 2.15101 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.643015 ms
+timeforFirstTopk:0.154018 ms
+timeforConcatenation:2.14982 ms
+timeforSecondTopk:0.398874 ms
+totalTime:3.34573 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+Time for first top-k: 0.102997 ms
+Original number:8192
+
+Time for concatenation: 2.40898 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.641823 ms
+timeforFirstTopk:0.129223 ms
+timeforConcatenation:2.40803 ms
+timeforSecondTopk:0.636101 ms
+totalTime:3.81517 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+Time for first top-k: 0.0908375 ms
+Original number:4096
+
+Time for concatenation: 2.68483 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.597 ms
+timeforFirstTopk:0.120878 ms
+timeforConcatenation:2.68388 ms
+timeforSecondTopk:1.10006 ms
+totalTime:4.50182 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+Time for first top-k: 0.0829697 ms
+Original number:2048
+
+Time for concatenation: 3.28207 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.67091 ms
+timeforFirstTopk:0.10705 ms
+timeforConcatenation:3.28016 ms
+timeforSecondTopk:2.04206 ms
+totalTime:6.10018 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+Time for first top-k: 0.185966 ms
+Original number:131072
+
+Time for concatenation: 2.15101 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.649929 ms
+timeforFirstTopk:0.215054 ms
+timeforConcatenation:2.15006 ms
+timeforSecondTopk:0.200033 ms
+totalTime:3.21507 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+Time for first top-k: 0.169039 ms
+Original number:65536
+
+Time for concatenation: 2.20609 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.642061 ms
+timeforFirstTopk:0.195026 ms
+timeforConcatenation:2.20513 ms
+timeforSecondTopk:0.262022 ms
+totalTime:3.30424 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+Time for first top-k: 0.163078 ms
+Original number:32768
+
+Time for concatenation: 2.26188 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.633001 ms
+timeforFirstTopk:0.191927 ms
+timeforConcatenation:2.25997 ms
+timeforSecondTopk:0.374079 ms
+totalTime:3.45898 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+Time for first top-k: 0.138998 ms
+Original number:16384
+
+Time for concatenation: 2.3098 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.64683 ms
+timeforFirstTopk:0.169039 ms
+timeforConcatenation:2.30885 ms
+timeforSecondTopk:0.58794 ms
+totalTime:3.71265 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+Time for first top-k: 0.11611 ms
+Original number:8192
+
+Time for concatenation: 2.4631 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.642061 ms
+timeforFirstTopk:0.143051 ms
+timeforConcatenation:2.46096 ms
+timeforSecondTopk:1.01995 ms
+totalTime:4.26602 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+Time for first top-k: 0.106812 ms
+Original number:4096
+
+Time for concatenation: 3.04508 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.648975 ms
+timeforFirstTopk:0.144005 ms
+timeforConcatenation:3.04389 ms
+timeforSecondTopk:1.84894 ms
+totalTime:5.68581 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+NElements per block is less than NElements. Reducing Number of elemenrs per block to Number of Elements.
+Shared Memory Size per block16KB
+
+Inside loop:0
+Time for first top-k: 0.0538826 ms
+Original number:2048
+
+Time for concatenation: 3.31783 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.616074 ms
+timeforFirstTopk:0.084877 ms
+timeforConcatenation:3.31688 ms
+timeforSecondTopk:3.47304 ms
+totalTime:7.49087 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+Time for first top-k: 0.185966 ms
+Original number:131072
+
+Time for concatenation: 2.15292 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.661135 ms
+timeforFirstTopk:0.212908 ms
+timeforConcatenation:2.15077 ms
+timeforSecondTopk:0.264168 ms
+totalTime:3.28898 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+Time for first top-k: 0.189066 ms
+Original number:65536
+
+Time for concatenation: 2.46501 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.643015 ms
+timeforFirstTopk:0.216961 ms
+timeforConcatenation:2.46406 ms
+timeforSecondTopk:0.399113 ms
+totalTime:3.72314 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+Time for first top-k: 0.144005 ms
+Original number:32768
+
+Time for concatenation: 2.24209 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.634909 ms
+timeforFirstTopk:0.170946 ms
+timeforConcatenation:2.24113 ms
+timeforSecondTopk:0.643969 ms
+totalTime:3.69096 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+Time for first top-k: 0.123978 ms
+Original number:16384
+
+Time for concatenation: 2.30718 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.646114 ms
+timeforFirstTopk:0.154972 ms
+timeforConcatenation:2.30503 ms
+timeforSecondTopk:1.14202 ms
+totalTime:4.24814 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+Time for first top-k: 0.120878 ms
+Original number:8192
+
+Time for concatenation: 2.44999 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.635862 ms
+timeforFirstTopk:0.151873 ms
+timeforConcatenation:2.44904 ms
+timeforSecondTopk:2.08497 ms
+totalTime:5.32174 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+Time for first top-k: 0.095129 ms
+Original number:4096
+
+Time for concatenation: 2.84314 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.626087 ms
+timeforFirstTopk:0.12207 ms
+timeforConcatenation:2.841 ms
+timeforSecondTopk:3.98517 ms
+totalTime:7.57432 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+NElements per block is less than NElements. Reducing Number of elemenrs per block to Number of Elements.
+Shared Memory Size per block16KB
+Time for first top-k: 0.0472069 ms
+Original number:2048
+
+Time for concatenation: 3.49998 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.642061 ms
+timeforFirstTopk:0.0760555 ms
+timeforConcatenation:3.49903 ms
+timeforSecondTopk:7.71809 ms
+totalTime:11.9352 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+Time for first top-k: 0.185013 ms
+Original number:131072
+
+Time for concatenation: 2.19011 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.654936 ms
+timeforFirstTopk:0.216961 ms
+timeforConcatenation:2.18916 ms
+timeforSecondTopk:0.415087 ms
+totalTime:3.47614 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+Time for first top-k: 0.159979 ms
+Original number:65536
+
+Time for concatenation: 2.22802 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.640154 ms
+timeforFirstTopk:0.185013 ms
+timeforConcatenation:2.22707 ms
+timeforSecondTopk:0.693083 ms
+totalTime:3.74532 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+Time for first top-k: 0.130892 ms
+Original number:32768
+
+Time for concatenation: 2.18606 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.602007 ms
+timeforFirstTopk:0.159025 ms
+timeforConcatenation:2.18487 ms
+timeforSecondTopk:1.24311 ms
+totalTime:4.18901 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+Time for first top-k: 0.112057 ms
+Original number:16384
+
+Time for concatenation: 2.26712 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.6001 ms
+timeforFirstTopk:0.138998 ms
+timeforConcatenation:2.26498 ms
+timeforSecondTopk:2.32601 ms
+totalTime:5.33009 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+Time for first top-k: 0.118971 ms
+Original number:8192
+
+Time for concatenation: 2.54583 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.633955 ms
+timeforFirstTopk:0.143051 ms
+timeforConcatenation:2.54488 ms
+timeforSecondTopk:4.48608 ms
+totalTime:7.80797 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+Time for first top-k: 0.0770092 ms
+Original number:4096
+
+Time for concatenation: 2.84195 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.632048 ms
+timeforFirstTopk:0.109911 ms
+timeforConcatenation:2.841 ms
+timeforSecondTopk:8.73494 ms
+totalTime:12.3179 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0 ms
+timeforFirstTopk:0 ms
+timeforConcatenation:0 ms
+timeforSecondTopk:17.3099 ms
+totalTime:17.3099 ms
+timeforNormalBitonicsort17.9491 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 734
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 734
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 734
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 734
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 734
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 734
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+Inside loop:15
+Time for first top-k: 0.215054 ms
+Original number:131072
+
+Time for concatenation: 2.01607 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.613928 ms
+timeforFirstTopk:0.243902 ms
+timeforConcatenation:2.01488 ms
+timeforSecondTopk:0.111103 ms
+totalTime:2.98381 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+Time for first top-k: 0.178814 ms
+Original number:65536
+
+Time for concatenation: 2.10786 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.610113 ms
+timeforFirstTopk:0.199795 ms
+timeforConcatenation:2.1069 ms
+timeforSecondTopk:0.121117 ms
+totalTime:3.03793 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+Time for first top-k: 0.170946 ms
+Original number:32768
+
+Time for concatenation: 2.12216 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.611067 ms
+timeforFirstTopk:0.195026 ms
+timeforConcatenation:2.12097 ms
+timeforSecondTopk:0.13113 ms
+totalTime:3.0582 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+Time for first top-k: 0.159979 ms
+Original number:16384
+
+Time for concatenation: 2.18391 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.622034 ms
+timeforFirstTopk:0.183105 ms
+timeforConcatenation:2.18391 ms
+timeforSecondTopk:0.140905 ms
+totalTime:3.12996 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+Time for first top-k: 0.153065 ms
+Original number:8192
+
+Time for concatenation: 2.26784 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.61202 ms
+timeforFirstTopk:0.174999 ms
+timeforConcatenation:2.26593 ms
+timeforSecondTopk:0.154972 ms
+totalTime:3.20792 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+Time for first top-k: 0.144005 ms
+Original number:4096
+
+Time for concatenation: 2.41709 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.606775 ms
+timeforFirstTopk:0.167131 ms
+timeforConcatenation:2.4159 ms
+timeforSecondTopk:0.161886 ms
+totalTime:3.35169 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+Time for first top-k: 0.137091 ms
+Original number:2048
+
+Time for concatenation: 2.83003 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.643015 ms
+timeforFirstTopk:0.160933 ms
+timeforConcatenation:2.82884 ms
+timeforSecondTopk:0.174999 ms
+totalTime:3.80778 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+Time for first top-k: 0.197887 ms
+Original number:131072
+
+Time for concatenation: 1.99604 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.617027 ms
+timeforFirstTopk:0.225067 ms
+timeforConcatenation:1.99604 ms
+timeforSecondTopk:0.11301 ms
+totalTime:2.95115 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+Time for first top-k: 0.175953 ms
+Original number:65536
+
+Time for concatenation: 2.11501 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.604153 ms
+timeforFirstTopk:0.196934 ms
+timeforConcatenation:2.11382 ms
+timeforSecondTopk:0.123978 ms
+totalTime:3.03888 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+Time for first top-k: 0.180006 ms
+Original number:32768
+
+Time for concatenation: 2.2161 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.603914 ms
+timeforFirstTopk:0.205994 ms
+timeforConcatenation:2.21395 ms
+timeforSecondTopk:0.133038 ms
+totalTime:3.1569 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+Time for first top-k: 0.15521 ms
+Original number:16384
+
+Time for concatenation: 2.18987 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.612974 ms
+timeforFirstTopk:0.179052 ms
+timeforConcatenation:2.18892 ms
+timeforSecondTopk:0.152111 ms
+totalTime:3.13306 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+Time for first top-k: 0.144005 ms
+Original number:8192
+
+Time for concatenation: 2.22802 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.614882 ms
+timeforFirstTopk:0.166893 ms
+timeforConcatenation:2.22683 ms
+timeforSecondTopk:0.154972 ms
+totalTime:3.16358 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+Time for first top-k: 0.128031 ms
+Original number:4096
+
+Time for concatenation: 2.4631 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.607967 ms
+timeforFirstTopk:0.149965 ms
+timeforConcatenation:2.46215 ms
+timeforSecondTopk:0.185013 ms
+totalTime:3.40509 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+Time for first top-k: 0.119925 ms
+Original number:2048
+
+Time for concatenation: 2.86102 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.634909 ms
+timeforFirstTopk:0.141859 ms
+timeforConcatenation:2.86102 ms
+timeforSecondTopk:0.177145 ms
+totalTime:3.81494 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+Time for first top-k: 0.193834 ms
+Original number:131072
+
+Time for concatenation: 2.08998 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.613928 ms
+timeforFirstTopk:0.216961 ms
+timeforConcatenation:2.08902 ms
+timeforSecondTopk:0.118971 ms
+totalTime:3.03888 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+Time for first top-k: 0.175953 ms
+Original number:65536
+
+Time for concatenation: 2.16198 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.6001 ms
+timeforFirstTopk:0.19598 ms
+timeforConcatenation:2.16079 ms
+timeforSecondTopk:0.129938 ms
+totalTime:3.08681 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+Time for first top-k: 0.170946 ms
+Original number:32768
+
+Time for concatenation: 2.14005 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.607014 ms
+timeforFirstTopk:0.195026 ms
+timeforConcatenation:2.13909 ms
+timeforSecondTopk:0.143051 ms
+totalTime:3.08418 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+Time for first top-k: 0.154018 ms
+Original number:16384
+
+Time for concatenation: 2.20084 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.620127 ms
+timeforFirstTopk:0.180006 ms
+timeforConcatenation:2.19989 ms
+timeforSecondTopk:0.161171 ms
+totalTime:3.16119 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+Time for first top-k: 0.149965 ms
+Original number:8192
+
+Time for concatenation: 2.29192 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.608921 ms
+timeforFirstTopk:0.173807 ms
+timeforConcatenation:2.29192 ms
+timeforSecondTopk:0.185966 ms
+totalTime:3.26061 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+Time for first top-k: 0.125885 ms
+Original number:4096
+
+Time for concatenation: 2.4941 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.607014 ms
+timeforFirstTopk:0.148058 ms
+timeforConcatenation:2.49314 ms
+timeforSecondTopk:0.177145 ms
+totalTime:3.42536 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+Time for first top-k: 0.11611 ms
+Original number:2048
+
+Time for concatenation: 2.85602 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.62418 ms
+timeforFirstTopk:0.138044 ms
+timeforConcatenation:2.85506 ms
+timeforSecondTopk:0.19598 ms
+totalTime:3.81327 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+Time for first top-k: 0.291109 ms
+Original number:131072
+
+Time for concatenation: 2.01893 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.613928 ms
+timeforFirstTopk:0.32115 ms
+timeforConcatenation:2.01893 ms
+timeforSecondTopk:0.119925 ms
+totalTime:3.07393 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+Time for first top-k: 0.169992 ms
+Original number:65536
+
+Time for concatenation: 2.14291 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.610113 ms
+timeforFirstTopk:0.192881 ms
+timeforConcatenation:2.14195 ms
+timeforSecondTopk:0.133038 ms
+totalTime:3.07798 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+Time for first top-k: 0.156164 ms
+Original number:32768
+
+Time for concatenation: 2.14982 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.602961 ms
+timeforFirstTopk:0.185013 ms
+timeforConcatenation:2.14887 ms
+timeforSecondTopk:0.143051 ms
+totalTime:3.07989 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+Time for first top-k: 0.145912 ms
+Original number:16384
+
+Time for concatenation: 2.22802 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.620127 ms
+timeforFirstTopk:0.1719 ms
+timeforConcatenation:2.22683 ms
+timeforSecondTopk:0.155926 ms
+totalTime:3.17478 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+Time for first top-k: 0.136137 ms
+Original number:8192
+
+Time for concatenation: 2.316 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.617027 ms
+timeforFirstTopk:0.165939 ms
+timeforConcatenation:2.31504 ms
+timeforSecondTopk:0.172138 ms
+totalTime:3.27015 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+Time for first top-k: 0.123024 ms
+Original number:4096
+
+Time for concatenation: 2.496 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.611067 ms
+timeforFirstTopk:0.145912 ms
+timeforConcatenation:2.49481 ms
+timeforSecondTopk:0.200033 ms
+totalTime:3.45182 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+Time for first top-k: 0.108004 ms
+Original number:2048
+
+Time for concatenation: 2.8441 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.605822 ms
+timeforFirstTopk:0.132084 ms
+timeforConcatenation:2.8429 ms
+timeforSecondTopk:0.206947 ms
+totalTime:3.78776 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+Time for first top-k: 0.179052 ms
+Original number:131072
+
+Time for concatenation: 2.05207 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.617027 ms
+timeforFirstTopk:0.202179 ms
+timeforConcatenation:2.05112 ms
+timeforSecondTopk:0.120163 ms
+totalTime:2.99048 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+Time for first top-k: 0.161171 ms
+Original number:65536
+
+Time for concatenation: 2.12097 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.617981 ms
+timeforFirstTopk:0.185966 ms
+timeforConcatenation:2.12002 ms
+timeforSecondTopk:0.149012 ms
+totalTime:3.07298 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+Time for first top-k: 0.150919 ms
+Original number:32768
+
+Time for concatenation: 2.14195 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.608921 ms
+timeforFirstTopk:0.173807 ms
+timeforConcatenation:2.141 ms
+timeforSecondTopk:0.148773 ms
+totalTime:3.0725 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+Time for first top-k: 0.136852 ms
+Original number:16384
+
+Time for concatenation: 2.23303 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.618935 ms
+timeforFirstTopk:0.159025 ms
+timeforConcatenation:2.23207 ms
+timeforSecondTopk:0.160933 ms
+totalTime:3.17097 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+Time for first top-k: 0.12207 ms
+Original number:8192
+
+Time for concatenation: 2.33603 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.601053 ms
+timeforFirstTopk:0.144005 ms
+timeforConcatenation:2.33507 ms
+timeforSecondTopk:0.181913 ms
+totalTime:3.26204 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+Time for first top-k: 0.109911 ms
+Original number:4096
+
+Time for concatenation: 2.46882 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.576973 ms
+timeforFirstTopk:0.134945 ms
+timeforConcatenation:2.46787 ms
+timeforSecondTopk:0.209093 ms
+totalTime:3.38888 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+Time for first top-k: 0.102043 ms
+Original number:2048
+
+Time for concatenation: 2.98309 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.607967 ms
+timeforFirstTopk:0.127077 ms
+timeforConcatenation:2.9819 ms
+timeforSecondTopk:0.272036 ms
+totalTime:3.98898 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+Time for first top-k: 0.182152 ms
+Original number:131072
+
+Time for concatenation: 3.27492 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.617981 ms
+timeforFirstTopk:0.210047 ms
+timeforConcatenation:3.27492 ms
+timeforSecondTopk:0.129938 ms
+totalTime:4.23288 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+Time for first top-k: 0.155926 ms
+Original number:65536
+
+Time for concatenation: 2.15507 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.607967 ms
+timeforFirstTopk:0.178814 ms
+timeforConcatenation:2.15387 ms
+timeforSecondTopk:0.150919 ms
+totalTime:3.09157 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+Time for first top-k: 0.147104 ms
+Original number:32768
+
+Time for concatenation: 2.14601 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.604868 ms
+timeforFirstTopk:0.174046 ms
+timeforConcatenation:2.14505 ms
+timeforSecondTopk:0.149965 ms
+totalTime:3.07393 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+Time for first top-k: 0.127077 ms
+Original number:16384
+
+Time for concatenation: 2.20704 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.607967 ms
+timeforFirstTopk:0.150919 ms
+timeforConcatenation:2.20585 ms
+timeforSecondTopk:0.176191 ms
+totalTime:3.14093 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+Time for first top-k: 0.128031 ms
+Original number:8192
+
+Time for concatenation: 2.244 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.586033 ms
+timeforFirstTopk:0.153065 ms
+timeforConcatenation:2.2428 ms
+timeforSecondTopk:0.212908 ms
+totalTime:3.19481 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+Time for first top-k: 0.105143 ms
+Original number:4096
+
+Time for concatenation: 2.51508 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.57888 ms
+timeforFirstTopk:0.128031 ms
+timeforConcatenation:2.51412 ms
+timeforSecondTopk:0.295877 ms
+totalTime:3.51691 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+Time for first top-k: 0.0929832 ms
+Original number:2048
+
+Time for concatenation: 2.96402 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.604868 ms
+timeforFirstTopk:0.116825 ms
+timeforConcatenation:2.96307 ms
+timeforSecondTopk:0.422001 ms
+totalTime:4.10676 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+Time for first top-k: 0.168085 ms
+Original number:131072
+
+Time for concatenation: 2.02799 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.609875 ms
+timeforFirstTopk:0.191212 ms
+timeforConcatenation:2.02703 ms
+timeforSecondTopk:0.127792 ms
+totalTime:2.95591 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+Time for first top-k: 0.144958 ms
+Original number:65536
+
+Time for concatenation: 2.12312 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.607967 ms
+timeforFirstTopk:0.169039 ms
+timeforConcatenation:2.12193 ms
+timeforSecondTopk:0.143051 ms
+totalTime:3.04198 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+Time for first top-k: 0.135899 ms
+Original number:32768
+
+Time for concatenation: 2.16198 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.597954 ms
+timeforFirstTopk:0.158787 ms
+timeforConcatenation:2.16103 ms
+timeforSecondTopk:0.175953 ms
+totalTime:3.09372 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+Time for first top-k: 0.123024 ms
+Original number:16384
+
+Time for concatenation: 2.99597 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.584126 ms
+timeforFirstTopk:0.146866 ms
+timeforConcatenation:2.99501 ms
+timeforSecondTopk:0.211 ms
+totalTime:3.93701 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+Time for first top-k: 0.109196 ms
+Original number:8192
+
+Time for concatenation: 2.25306 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.58198 ms
+timeforFirstTopk:0.142097 ms
+timeforConcatenation:2.2521 ms
+timeforSecondTopk:0.289917 ms
+totalTime:3.2661 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+Time for first top-k: 0.0941753 ms
+Original number:4096
+
+Time for concatenation: 2.52485 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.57888 ms
+timeforFirstTopk:0.12207 ms
+timeforConcatenation:2.5239 ms
+timeforSecondTopk:0.442982 ms
+totalTime:3.66783 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+Time for first top-k: 0.0808239 ms
+Original number:2048
+
+Time for concatenation: 3.016 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.607014 ms
+timeforFirstTopk:0.102997 ms
+timeforConcatenation:3.01504 ms
+timeforSecondTopk:0.751019 ms
+totalTime:4.47607 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+Time for first top-k: 0.166893 ms
+Original number:131072
+
+Time for concatenation: 2.02918 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.617027 ms
+timeforFirstTopk:0.195026 ms
+timeforConcatenation:2.02799 ms
+timeforSecondTopk:0.139952 ms
+totalTime:2.97999 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+Time for first top-k: 0.143051 ms
+Original number:65536
+
+Time for concatenation: 2.12884 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.602961 ms
+timeforFirstTopk:0.170946 ms
+timeforConcatenation:2.12884 ms
+timeforSecondTopk:0.169992 ms
+totalTime:3.07274 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+Time for first top-k: 0.123978 ms
+Original number:32768
+
+Time for concatenation: 2.07806 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.576019 ms
+timeforFirstTopk:0.145912 ms
+timeforConcatenation:2.07686 ms
+timeforSecondTopk:0.211 ms
+totalTime:3.0098 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+Time for first top-k: 0.115156 ms
+Original number:16384
+
+Time for concatenation: 2.15292 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.58198 ms
+timeforFirstTopk:0.139952 ms
+timeforConcatenation:2.15197 ms
+timeforSecondTopk:0.300884 ms
+totalTime:3.17478 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+Time for first top-k: 0.09799 ms
+Original number:8192
+
+Time for concatenation: 2.30622 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.583887 ms
+timeforFirstTopk:0.123024 ms
+timeforConcatenation:2.30622 ms
+timeforSecondTopk:0.478029 ms
+totalTime:3.49116 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+Time for first top-k: 0.0889301 ms
+Original number:4096
+
+Time for concatenation: 2.57111 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.582933 ms
+timeforFirstTopk:0.11301 ms
+timeforConcatenation:2.56991 ms
+timeforSecondTopk:0.82612 ms
+totalTime:4.09198 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+Time for first top-k: 0.0748634 ms
+Original number:2048
+
+Time for concatenation: 3.0539 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block4KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.626087 ms
+timeforFirstTopk:0.0989437 ms
+timeforConcatenation:3.05295 ms
+timeforSecondTopk:1.50585 ms
+totalTime:5.28383 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+Time for first top-k: 0.159025 ms
+Original number:131072
+
+Time for concatenation: 2.01917 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.607014 ms
+timeforFirstTopk:0.18096 ms
+timeforConcatenation:2.01917 ms
+timeforSecondTopk:0.145912 ms
+totalTime:2.95305 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+Time for first top-k: 0.137091 ms
+Original number:65536
+
+Time for concatenation: 2.69794 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.580788 ms
+timeforFirstTopk:0.161171 ms
+timeforConcatenation:2.69699 ms
+timeforSecondTopk:0.185966 ms
+totalTime:3.62492 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+Time for first top-k: 0.123978 ms
+Original number:32768
+
+Time for concatenation: 3.22199 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.571966 ms
+timeforFirstTopk:0.154018 ms
+timeforConcatenation:3.22104 ms
+timeforSecondTopk:0.258923 ms
+totalTime:4.20594 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+Time for first top-k: 0.11301 ms
+Original number:16384
+
+Time for concatenation: 2.14386 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.587225 ms
+timeforFirstTopk:0.138044 ms
+timeforConcatenation:2.14291 ms
+timeforSecondTopk:0.380039 ms
+totalTime:3.24821 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+Time for first top-k: 0.09799 ms
+Original number:8192
+
+Time for concatenation: 2.30813 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.585079 ms
+timeforFirstTopk:0.119925 ms
+timeforConcatenation:2.30694 ms
+timeforSecondTopk:0.625849 ms
+totalTime:3.63779 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+Time for first top-k: 0.0839233 ms
+Original number:4096
+
+Time for concatenation: 2.59018 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.575066 ms
+timeforFirstTopk:0.109911 ms
+timeforConcatenation:2.59018 ms
+timeforSecondTopk:1.0941 ms
+totalTime:4.36926 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+Time for first top-k: 0.068903 ms
+Original number:2048
+
+Time for concatenation: 3.18599 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block8KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.607967 ms
+timeforFirstTopk:0.0929832 ms
+timeforConcatenation:3.18503 ms
+timeforSecondTopk:2.02703 ms
+totalTime:5.91302 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+Time for first top-k: 0.166178 ms
+Original number:131072
+
+Time for concatenation: 2.00891 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.586987 ms
+timeforFirstTopk:0.19002 ms
+timeforConcatenation:2.00891 ms
+timeforSecondTopk:0.18096 ms
+totalTime:2.96688 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+Time for first top-k: 0.154972 ms
+Original number:65536
+
+Time for concatenation: 2.074 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.57888 ms
+timeforFirstTopk:0.18096 ms
+timeforConcatenation:2.07305 ms
+timeforSecondTopk:0.261068 ms
+totalTime:3.09396 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+Time for first top-k: 0.138998 ms
+Original number:32768
+
+Time for concatenation: 2.11811 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.576019 ms
+timeforFirstTopk:0.163794 ms
+timeforConcatenation:2.11692 ms
+timeforSecondTopk:0.361919 ms
+totalTime:3.21865 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+Time for first top-k: 0.121117 ms
+Original number:16384
+
+Time for concatenation: 2.177 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.586987 ms
+timeforFirstTopk:0.143051 ms
+timeforConcatenation:2.177 ms
+timeforSecondTopk:0.58198 ms
+totalTime:3.48902 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+Time for first top-k: 0.103951 ms
+Original number:8192
+
+Time for concatenation: 2.35009 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.589132 ms
+timeforFirstTopk:0.127077 ms
+timeforConcatenation:2.35009 ms
+timeforSecondTopk:0.990868 ms
+totalTime:4.05717 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+Time for first top-k: 0.0889301 ms
+Original number:4096
+
+Time for concatenation: 3.09706 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.576973 ms
+timeforFirstTopk:0.11301 ms
+timeforConcatenation:3.09706 ms
+timeforSecondTopk:1.81699 ms
+totalTime:5.60403 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+NElements per block is less than NElements. Reducing Number of elemenrs per block to Number of Elements.
+Shared Memory Size per block16KB
+
+Inside loop:0
+Time for first top-k: 0.0531673 ms
+Original number:2048
+
+Time for concatenation: 3.30901 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.602007 ms
+timeforFirstTopk:0.082016 ms
+timeforConcatenation:3.30806 ms
+timeforSecondTopk:3.47495 ms
+totalTime:7.46703 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+Time for first top-k: 0.165939 ms
+Original number:131072
+
+Time for concatenation: 2.038 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.582933 ms
+timeforFirstTopk:0.189066 ms
+timeforConcatenation:2.03705 ms
+timeforSecondTopk:0.247002 ms
+totalTime:3.05605 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+Time for first top-k: 0.147104 ms
+Original number:65536
+
+Time for concatenation: 2.05302 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.58198 ms
+timeforFirstTopk:0.173092 ms
+timeforConcatenation:2.05302 ms
+timeforSecondTopk:0.379086 ms
+totalTime:3.18718 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+Time for first top-k: 0.13113 ms
+Original number:32768
+
+Time for concatenation: 2.1162 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.576019 ms
+timeforFirstTopk:0.159025 ms
+timeforConcatenation:2.11501 ms
+timeforSecondTopk:0.637054 ms
+totalTime:3.48711 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+Time for first top-k: 0.114202 ms
+Original number:16384
+
+Time for concatenation: 2.19798 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.589848 ms
+timeforFirstTopk:0.136137 ms
+timeforConcatenation:2.19703 ms
+timeforSecondTopk:1.11008 ms
+totalTime:4.03309 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+Time for first top-k: 0.0989437 ms
+Original number:8192
+
+Time for concatenation: 2.36702 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.585079 ms
+timeforFirstTopk:0.120878 ms
+timeforConcatenation:2.36702 ms
+timeforSecondTopk:2.06304 ms
+totalTime:5.13601 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+Time for first top-k: 0.0817776 ms
+Original number:4096
+
+Time for concatenation: 2.7411 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.577927 ms
+timeforFirstTopk:0.103951 ms
+timeforConcatenation:2.73895 ms
+timeforSecondTopk:3.95703 ms
+totalTime:7.37786 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+NElements per block is less than NElements. Reducing Number of elemenrs per block to Number of Elements.
+Shared Memory Size per block16KB
+Time for first top-k: 0.0419617 ms
+Original number:2048
+
+Time for concatenation: 3.45492 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0.603914 ms
+timeforFirstTopk:0.0658035 ms
+timeforConcatenation:3.45397 ms
+timeforSecondTopk:7.70307 ms
+totalTime:11.8268 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+Time for first top-k: 0.162125 ms
+Original number:131072
+
+Time for concatenation: 2.03919 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+
+
+timeforMaxsample:0.584841 ms
+timeforFirstTopk:0.185013 ms
+timeforConcatenation:2.038 ms
+timeforSecondTopk:0.396967 ms
+totalTime:3.20482 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+Time for first top-k: 0.141859 ms
+Original number:65536
+
+Time for concatenation: 2.08902 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+
+
+timeforMaxsample:0.582933 ms
+timeforFirstTopk:0.169039 ms
+timeforConcatenation:2.08902 ms
+timeforSecondTopk:0.677109 ms
+totalTime:3.5181 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+Time for first top-k: 0.127077 ms
+Original number:32768
+
+Time for concatenation: 2.13194 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+
+
+timeforMaxsample:0.578165 ms
+timeforFirstTopk:0.150919 ms
+timeforConcatenation:2.13099 ms
+timeforSecondTopk:1.23096 ms
+totalTime:4.09102 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+
+Inside loop:1
+Time for first top-k: 0.108957 ms
+Original number:16384
+
+Time for concatenation: 2.25401 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+
+
+timeforMaxsample:0.588894 ms
+timeforFirstTopk:0.133038 ms
+timeforConcatenation:2.25306 ms
+timeforSecondTopk:2.30885 ms
+totalTime:5.28383 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+Inside loop:0
+Time for first top-k: 0.0910759 ms
+Original number:8192
+
+Time for concatenation: 2.51603 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+
+
+timeforMaxsample:0.584126 ms
+timeforFirstTopk:0.118017 ms
+timeforConcatenation:2.51508 ms
+timeforSecondTopk:4.45104 ms
+totalTime:7.66826 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+Time for first top-k: 0.0700951 ms
+Original number:4096
+
+Time for concatenation: 2.97093 ms
+
+
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+
+
+timeforMaxsample:0.576019 ms
+timeforFirstTopk:0.0941753 ms
+timeforConcatenation:2.97093 ms
+timeforSecondTopk:8.72087 ms
+totalTime:12.362 ms
+timeforNormalBitonicsort0 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:65536
+Number of Subranges:2048
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+Inside loop:0
+
+Inside loop:1
+
+Inside loop:2
+
+Inside loop:3
+
+Inside loop:4
+
+Inside loop:5
+
+Inside loop:6
+
+Inside loop:7
+
+Inside loop:8
+
+Inside loop:9
+
+Inside loop:10
+
+Inside loop:11
+
+Inside loop:12
+
+Inside loop:13
+
+Inside loop:14
+
+
+
+timeforMaxsample:0 ms
+timeforFirstTopk:0 ms
+timeforConcatenation:0 ms
+timeforSecondTopk:17.2369 ms
+totalTime:17.2369 ms
+timeforNormalBitonicsort17.813 ms
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:32768
+Number of Subranges:4096
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 734
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:16384
+Number of Subranges:8192
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 734
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:8192
+Number of Subranges:16384
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 734
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:4096
+Number of Subranges:32768
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 734
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Bitonic TopK(First TopK)-------
+Size of(data_t)4
+Shared Memory Size per block32KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 673
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:2048
+Number of Subranges:65536
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 734
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+
+SubRangeSize:1024
+Number of Subranges:131072
+------Starting Second Bitonic TopK-------
+Size of(data_t)4
+Shared Memory Size per block16KB
+
+an illegal memory access was encountered in bitonic_com.cuh at line 734
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
+./exe exp_num_element k alpha scoreFile output_file
+subrange:0
+Small number of subranges!. Decrease the value of alpha!
