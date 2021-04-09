@@ -1,0 +1,1437 @@
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:4096
+Error! opening SCORE file./exe num_element k NBucket scoreFile output_file
+Number of Subranges:4096
+Error! opening SCORE file./exe num_element k NBucket scoreFile output_file
+Number of Subranges:8192
+Error! opening SCORE file./exe num_element k NBucket scoreFile output_file
+Number of Subranges:8192
+Error! opening SCORE file./exe num_element k NBucket scoreFile output_file
+Number of Subranges:16384
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:4096
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.068903 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0121593 ms
+depth0
+Number of subranges in first sweep:0
+Total time of radix_select Inplace_firstTopk(Phase II):0.193119 ms
+New Concatenated Size: 1
+Time for concatenation:2.30598 ms
+The concatenation of the contributing subranges is done!
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0560284 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0100136 ms
+depth0
+Time for selecting the top k element is:2.96903 ms
+The kth element from top is:262826
+
+
+kth element262826
+k-1 th element0
+k+1 th element262791
+Success!
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:4096
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:4096
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.124931 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0171661 ms
+depth0
+Number of subranges in first sweep:0
+Total time of radix_select Inplace_firstTopk(Phase II):0.289917 ms
+New Concatenated Size: 1
+Time for concatenation:2.43783 ms
+The concatenation of the contributing subranges is done!
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0619888 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0100136 ms
+depth0
+Time for selecting the top k element is:3.23081 ms
+The kth element from top is:262826
+
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:4096
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.114918 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0171661 ms
+depth0
+Number of subranges in first sweep:1
+Total time of radix_select Inplace_firstTopk(Phase II):0.263929 ms
+New Concatenated Size: 6
+Time for concatenation:2.43306 ms
+The concatenation of the contributing subranges is done!
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0619888 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0109673 ms
+Loop:0
+KBucket:254
+KCount:4
+Time for finding bucket count & assignement of bucket to the elements:0.00905991 ms
+depth1
+Time for selecting the top k element is:3.22914 ms
+The kth element from top is:262791
+
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:8192
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.129938 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0169277 ms
+depth0
+Number of subranges in first sweep:3
+Total time of radix_select Inplace_firstTopk(Phase II):0.307083 ms
+New Concatenated Size: 8
+Time for concatenation:2.31504 ms
+The concatenation of the contributing subranges is done!
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0560284 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0100136 ms
+Loop:0
+KBucket:254
+KCount:4
+Time for finding bucket count & assignement of bucket to the elements:0.00810623 ms
+Loop:1
+KBucket:245
+KCount:3
+Time for finding bucket count & assignement of bucket to the elements:0.00810623 ms
+Loop:2
+KBucket:152
+KCount:2
+Time for finding bucket count & assignement of bucket to the elements:0.00810623 ms
+depth3
+Time for selecting the top k element is:3.20697 ms
+The kth element from top is:262788
+
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:8192
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.114918 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0300407 ms
+depth0
+Number of subranges in first sweep:7
+Total time of radix_select Inplace_firstTopk(Phase II):0.324965 ms
+New Concatenated Size: 24
+Time for concatenation:2.33006 ms
+The concatenation of the contributing subranges is done!
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0560284 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.00882149 ms
+depth0
+Time for selecting the top k element is:3.15499 ms
+The kth element from top is:199021
+
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:16384
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.125885 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0178814 ms
+depth0
+Number of subranges in first sweep:15
+Total time of radix_select Inplace_firstTopk(Phase II):0.262976 ms
+New Concatenated Size: 50
+Time for concatenation:2.26402 ms
+The concatenation of the contributing subranges is done!
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0560284 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.00905991 ms
+depth0
+Time for selecting the top k element is:3.00813 ms
+The kth element from top is:151824
+
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:16384
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.122786 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0181198 ms
+Loop:0
+KBucket:75
+KCount:3
+10178 2017 890 548 385 305 244 180 182 136 80 95 72 97 64 49 57 65 50 28 47 40 38 37 29 36 34 29 20 33 17 14 16 20 21 12 16 45 20 16 5 8 10 7 2 9 5 3 6 1 3 2 2 2 1 2 4 0 0 1 3 2 1 4 2 0 1 0 3 1 0 0 0 0 0 3 1 0 0 2 0 0 0 0 0 3 0 0 2 0 0 2 2 0 0 0 0 1 1 2 1 0 2 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.00905991 ms
+depth1
+Number of subranges in first sweep:31
+Total time of radix_select Inplace_firstTopk(Phase II):0.320911 ms
+New Concatenated Size: 122
+Time for concatenation:2.28882 ms
+The concatenation of the contributing subranges is done!
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0560284 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.00905991 ms
+Loop:0
+KBucket:99
+KCount:2
+Time for finding bucket count & assignement of bucket to the elements:0.00905991 ms
+depth1
+Time for selecting the top k element is:3.12901 ms
+The kth element from top is:102561
+
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:32768
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.114918 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0190735 ms
+Loop:0
+KBucket:55
+KCount:3
+24794 2912 1155 695 473 377 293 218 206 162 97 112 85 101 79 56 67 72 58 36 55 46 39 38 29 39 36 31 24 35 18 16 17 23 24 12 16 46 21 18 5 9 10 7 4 10 5 3 6 2 4 3 2 2 1 3 5 0 1 1 3 2 1 5 2 0 1 0 3 2 0 0 0 0 0 4 1 0 0 2 0 0 0 0 1 3 0 0 2 0 0 2 2 0 0 0 0 1 2 2 1 0 2 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0100136 ms
+depth1
+Number of subranges in first sweep:63
+Total time of radix_select Inplace_firstTopk(Phase II):0.304937 ms
+New Concatenated Size: 299
+Time for concatenation:2.25806 ms
+The concatenation of the contributing subranges is done!
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0638962 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0100136 ms
+Loop:0
+KBucket:92
+KCount:14
+Time for finding bucket count & assignement of bucket to the elements:0.0100136 ms
+Loop:1
+KBucket:140
+KCount:2
+Time for finding bucket count & assignement of bucket to the elements:0.00905991 ms
+Loop:2
+KBucket:166
+KCount:2
+Time for finding bucket count & assignement of bucket to the elements:0.0100136 ms
+Loop:3
+KBucket:26
+KCount:2
+Time for finding bucket count & assignement of bucket to the elements:0.00905991 ms
+Loop:4
+KBucket:21
+KCount:2
+Time for finding bucket count & assignement of bucket to the elements:0.00905991 ms
+Loop:5
+KBucket:74
+KCount:2
+Time for finding bucket count & assignement of bucket to the elements:0.00905991 ms
+Loop:6
+KBucket:23
+KCount:2
+Time for selecting the top k element is:3.22008 ms
+The kth element from top is:95392
+
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:32768
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.132084 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0178814 ms
+Loop:0
+KBucket:41
+KCount:9
+24794 2912 1155 695 473 377 293 218 206 162 97 112 85 101 79 56 67 72 58 36 55 46 39 38 29 39 36 31 24 35 18 16 17 23 24 12 16 46 21 18 5 9 10 7 4 10 5 3 6 2 4 3 2 2 1 3 5 0 1 1 3 2 1 5 2 0 1 0 3 2 0 0 0 0 0 4 1 0 0 2 0 0 0 0 1 3 0 0 2 0 0 2 2 0 0 0 0 1 2 2 1 0 2 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0100136 ms
+depth1
+Number of subranges in first sweep:127
+Total time of radix_select Inplace_firstTopk(Phase II):0.316143 ms
+New Concatenated Size: 802
+Time for concatenation:2.33197 ms
+The concatenation of the contributing subranges is done!
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0550747 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0100136 ms
+Loop:0
+KBucket:75
+KCount:57
+Time for finding bucket count & assignement of bucket to the elements:0.00810623 ms
+Loop:1
+KBucket:22
+KCount:4
+Time for finding bucket count & assignement of bucket to the elements:0.00786781 ms
+depth2
+Time for selecting the top k element is:3.19695 ms
+The kth element from top is:77394
+
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:65536
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.139952 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0188351 ms
+Loop:0
+KBucket:35
+KCount:13
+55676 3883 1460 849 573 445 324 256 227 186 116 128 99 115 90 63 77 80 63 41 59 51 46 40 36 45 42 33 27 36 20 16 19 25 25 13 16 48 23 20 6 9 10 8 4 11 5 3 6 3 4 3 3 2 1 3 5 1 1 1 3 2 2 5 2 0 1 0 3 2 0 0 0 0 0 4 1 0 0 2 0 0 0 0 1 3 0 0 2 0 0 2 2 0 0 0 0 1 2 2 1 0 2 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0109673 ms
+depth1
+Number of subranges in first sweep:255
+Total time of radix_select Inplace_firstTopk(Phase II):0.341892 ms
+New Concatenated Size: 1692
+Time for concatenation:2.12812 ms
+The concatenation of the contributing subranges is done!
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0572205 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.00905991 ms
+Loop:0
+KBucket:62
+KCount:9
+Time for finding bucket count & assignement of bucket to the elements:0.00786781 ms
+depth1
+Time for selecting the top k element is:2.99907 ms
+The kth element from top is:64114
+
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:65536
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0929832 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0138283 ms
+Loop:0
+KBucket:25
+KCount:45
+55676 3883 1460 849 573 445 324 256 227 186 116 128 99 115 90 63 77 80 63 41 59 51 46 40 36 45 42 33 27 36 20 16 19 25 25 13 16 48 23 20 6 9 10 8 4 11 5 3 6 3 4 3 3 2 1 3 5 1 1 1 3 2 2 5 2 0 1 0 3 2 0 0 0 0 0 4 1 0 0 2 0 0 0 0 1 3 0 0 2 0 0 2 2 0 0 0 0 1 2 2 1 0 2 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0100136 ms
+depth1
+Number of subranges in first sweep:511
+Total time of radix_select Inplace_firstTopk(Phase II):0.279188 ms
+New Concatenated Size: 4307
+Time for concatenation:2.14505 ms
+The concatenation of the contributing subranges is done!
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0557899 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.00905991 ms
+Loop:0
+KBucket:45
+KCount:48
+Time for finding bucket count & assignement of bucket to the elements:0.00810623 ms
+Loop:1
+KBucket:34
+KCount:5
+Time for finding bucket count & assignement of bucket to the elements:0.00786781 ms
+Loop:2
+KBucket:95
+KCount:3
+Time for finding bucket count & assignement of bucket to the elements:0.00786781 ms
+Loop:3
+KBucket:160
+KCount:3
+Time for finding bucket count & assignement of bucket to the elements:0.00810623 ms
+Loop:4
+KBucket:234
+KCount:3
+Time for finding bucket count & assignement of bucket to the elements:0.00786781 ms
+Loop:5
+KBucket:237
+KCount:3
+Time for finding bucket count & assignement of bucket to the elements:0.00905991 ms
+Loop:6
+KBucket:35
+KCount:3
+Time for selecting the top k element is:3.01194 ms
+The kth element from top is:46520
+
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:131072
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0929832 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0150204 ms
+Loop:0
+KBucket:17
+KCount:87
+119118 5000 1780 1031 668 527 374 283 263 211 131 137 111 120 99 69 89 87 74 46 64 56 58 41 42 45 46 40 29 38 24 19 20 26 26 16 16 49 23 22 8 9 10 8 6 12 5 4 6 3 4 3 3 2 1 4 5 1 1 1 3 2 2 5 2 0 1 0 3 2 0 0 1 0 0 4 1 0 0 2 0 1 0 0 1 3 0 0 2 0 0 2 2 0 0 0 0 1 2 2 1 0 2 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0100136 ms
+depth1
+Number of subranges in first sweep:1023
+Total time of radix_select Inplace_firstTopk(Phase II):0.270128 ms
+New Concatenated Size: 8954
+Time for concatenation:2.12812 ms
+The concatenation of the contributing subranges is done!
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0550747 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0100136 ms
+Loop:0
+KBucket:38
+KCount:228
+Time for finding bucket count & assignement of bucket to the elements:0.00882149 ms
+Loop:1
+KBucket:214
+KCount:4
+Time for finding bucket count & assignement of bucket to the elements:0.00786781 ms
+depth2
+Time for selecting the top k element is:2.92611 ms
+The kth element from top is:40035
+
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:131072
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.134945 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0209808 ms
+Loop:0
+KBucket:8
+KCount:263
+119118 5000 1780 1031 668 527 374 283 263 211 131 137 111 120 99 69 89 87 74 46 64 56 58 41 42 45 46 40 29 38 24 19 20 26 26 16 16 49 23 22 8 9 10 8 6 12 5 4 6 3 4 3 3 2 1 4 5 1 1 1 3 2 2 5 2 0 1 0 3 2 0 0 1 0 0 4 1 0 0 2 0 1 0 0 1 3 0 0 2 0 0 2 2 0 0 0 0 1 2 2 1 0 2 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0109673 ms
+Loop:1
+KBucket:236
+KCount:2
+0 0 0 1 1 1 0 1 3 2 2 1 7 0 1 1 0 1 0 1 1 1 3 2 0 1 0 0 1 1 1 0 2 2 0 1 0 2 2 0 0 0 0 0 1 1 0 1 2 1 1 3 3 3 0 2 0 5 0 3 3 2 1 0 0 0 1 1 1 0 0 1 5 3 1 0 1 0 1 3 0 1 1 0 0 2 1 3 2 1 0 4 0 1 2 0 0 0 2 2 0 1 1 0 2 1 3 1 2 0 1 2 1 1 1 0 2 1 0 0 2 1 1 0 0 0 0 4 2 0 1 2 0 1 2 0 0 1 2 1 2 3 1 1 2 1 1 0 2 1 3 4 2 1 2 1 0 0 0 0 0 1 1 0 1 0 0 1 0 1 0 0 2 2 2 0 0 0 1 0 1 1 1 0 0 1 1 0 2 0 0 1 1 3 1 0 1 0 0 0 1 1 2 0 1 2 0 2 1 2 2 1 3 1 0 0 3 0 0 2 1 0 0 0 1 0 0 0 1 2 2 0 1 2 1 0 2 1 0 0 0 0 1 3 2 1 2 1 0 3 0 3 0 1 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0109673 ms
+depth2
+Number of subranges in first sweep:2047
+Total time of radix_select Inplace_firstTopk(Phase II):0.386 ms
+New Concatenated Size: 20704
+Time for concatenation:2.21896 ms
+The concatenation of the contributing subranges is done!
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0529289 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0100136 ms
+Loop:0
+KBucket:25
+KCount:216
+Time for finding bucket count & assignement of bucket to the elements:0.00905991 ms
+Loop:1
+KBucket:251
+KCount:4
+Time for finding bucket count & assignement of bucket to the elements:0.00882149 ms
+depth2
+Time for selecting the top k element is:3.15499 ms
+The kth element from top is:35046
+
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:262144
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.134945 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0228882 ms
+Loop:0
+KBucket:4
+KCount:789
+247899 6191 2168 1220 789 606 425 319 295 240 151 151 123 131 112 75 100 96 82 49 68 63 63 47 44 51 47 44 33 40 26 21 21 28 28 19 17 54 24 22 8 9 10 8 7 12 6 5 6 3 5 3 3 2 1 5 5 1 1 1 3 2 3 5 2 0 2 0 3 2 0 0 1 0 0 4 1 0 0 2 0 1 0 0 1 3 0 0 2 0 0 2 2 0 0 0 0 1 2 2 1 0 2 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0140667 ms
+Loop:1
+KBucket:171
+KCount:2
+2 5 6 1 1 5 7 1 6 3 5 4 1 5 2 5 2 2 6 3 5 4 3 4 8 9 4 4 7 7 2 4 10 17 5 6 5 2 3 6 1 6 6 4 1 5 3 3 6 3 2 5 3 3 2 3 2 2 4 3 2 1 1 4 3 1 3 5 3 2 7 2 3 2 4 6 8 7 5 6 2 3 2 1 3 6 3 3 4 4 0 5 2 3 6 2 4 2 2 6 4 5 0 4 1 7 4 4 2 0 1 3 5 3 4 3 0 2 2 2 2 2 5 2 3 3 1 4 3 4 1 2 2 1 2 3 3 3 3 3 3 6 0 2 2 0 2 3 2 1 1 4 1 1 3 1 2 2 4 2 4 2 4 2 3 2 5 2 0 1 2 2 0 3 2 2 1 2 2 2 2 4 4 4 4 4 1 5 4 6 1 4 4 2 1 2 2 3 2 4 1 4 6 7 2 2 3 2 2 3 5 4 1 3 5 2 1 0 2 1 2 1 1 3 5 2 0 2 4 7 5 2 0 4 1 2 2 1 2 1 0 1 4 6 5 4 1 1 0 2 4 1 3 3 3 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0119209 ms
+Loop:2
+KBucket:130
+KCount:2
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.013113 ms
+Loop:3
+KBucket:159
+KCount:2
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0119209 ms
+Loop:4
+KBucket:101
+KCount:2
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0119209 ms
+Loop:5
+KBucket:127
+KCount:2
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.013113 ms
+Loop:6
+KBucket:187
+KCount:2
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0128746 ms
+Loop:7
+KBucket:51
+KCount:2
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+New Concatenated Size: 44719
+Time for concatenation:2.10023 ms
+The concatenation of the contributing subranges is done!
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0510216 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0100136 ms
+Loop:0
+KBucket:22
+KCount:345
+Time for finding bucket count & assignement of bucket to the elements:0.0100136 ms
+depth1
+Time for selecting the top k element is:3.23415 ms
+The kth element from top is:27355
+
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:262144
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.116825 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0219345 ms
+Loop:0
+KBucket:1
+KCount:6191
+247899 6191 2168 1220 789 606 425 319 295 240 151 151 123 131 112 75 100 96 82 49 68 63 63 47 44 51 47 44 33 40 26 21 21 28 28 19 17 54 24 22 8 9 10 8 7 12 6 5 6 3 5 3 3 2 1 5 5 1 1 1 3 2 3 5 2 0 2 0 3 2 0 0 1 0 0 4 1 0 0 2 0 1 0 0 1 3 0 0 2 0 0 2 2 0 0 0 0 1 2 2 1 0 2 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0140667 ms
+Loop:1
+KBucket:242
+KCount:16
+76 69 64 86 63 86 89 97 62 67 66 54 54 37 58 49 33 25 38 47 31 35 33 38 40 48 32 30 30 31 32 34 26 24 30 35 43 37 26 40 33 29 43 28 37 26 29 26 32 39 29 29 35 31 37 40 22 25 34 21 39 30 21 31 26 28 31 17 29 30 20 24 31 28 17 21 22 29 24 18 29 34 24 21 26 28 31 27 24 20 28 22 14 24 20 20 23 20 13 14 21 13 31 20 21 23 21 24 28 25 32 23 27 28 22 14 35 24 21 14 24 17 12 24 22 21 19 20 22 16 14 18 26 23 31 30 26 21 21 19 14 19 18 18 11 16 28 18 11 19 20 20 25 20 19 27 20 17 22 18 14 17 15 16 21 18 10 11 15 16 19 17 17 27 23 24 20 16 25 18 19 19 14 9 12 16 19 21 11 13 10 14 16 17 19 12 13 14 22 19 11 20 17 24 6 14 16 14 23 15 12 18 20 17 17 17 16 12 21 13 14 15 20 14 11 12 14 13 13 16 10 19 11 7 16 13 11 11 14 13 10 11 16 9 12 9 13 11 9 10 14 8 13 11 6 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0128746 ms
+Loop:2
+KBucket:10
+KCount:5
+0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.013113 ms
+Loop:3
+KBucket:97
+KCount:5
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0121593 ms
+Loop:4
+KBucket:254
+KCount:5
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0119209 ms
+Loop:5
+KBucket:88
+KCount:5
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0121593 ms
+Loop:6
+KBucket:126
+KCount:5
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0119209 ms
+Loop:7
+KBucket:60
+KCount:5
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+New Concatenated Size: 109560
+Time for concatenation:2.13099 ms
+The concatenation of the contributing subranges is done!
+In Phase II: Inplace Bucket select
+Time for finding max min:0.056982 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.013113 ms
+Loop:0
+KBucket:16
+KCount:675
+Time for finding bucket count & assignement of bucket to the elements:0.0109673 ms
+Loop:1
+KBucket:107
+KCount:5
+Time for finding bucket count & assignement of bucket to the elements:0.0138283 ms
+depth2
+Time for selecting the top k element is:3.27992 ms
+The kth element from top is:18805
+
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:524288
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.137806 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0271797 ms
+Loop:0
+KBucket:1
+KCount:7693
+507212 7693 2655 1455 922 708 498 377 329 270 169 169 138 150 123 79 114 104 90 52 72 68 70 54 48 53 48 47 37 40 27 24 21 30 28 21 18 55 28 22 8 9 11 10 7 12 7 6 6 3 5 3 3 2 1 7 5 1 1 1 3 2 3 6 2 0 2 0 3 2 0 0 1 0 0 4 1 0 0 2 0 1 0 0 1 3 0 0 2 0 0 2 2 0 0 0 0 1 2 2 1 0 2 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.015974 ms
+Loop:1
+KBucket:7
+KCount:117
+98 88 79 104 82 102 104 117 73 76 78 68 65 50 74 60 40 38 48 58 39 43 39 49 49 60 41 41 39 39 39 46 30 32 40 45 49 47 34 48 38 36 50 36 42 39 35 37 38 45 40 38 44 39 44 48 28 27 39 28 43 40 29 38 38 34 32 24 43 35 28 33 35 34 21 26 29 34 30 27 37 37 37 26 31 32 40 34 28 27 35 27 24 32 26 27 27 24 20 20 28 20 44 27 26 31 25 32 34 33 39 29 31 33 29 20 41 30 25 19 32 23 18 27 28 28 27 22 25 20 23 21 31 31 35 37 29 29 23 23 19 21 24 20 19 19 31 21 16 21 25 24 28 25 21 29 28 23 26 23 20 25 17 19 24 21 16 14 17 20 21 26 21 33 26 29 26 23 33 21 23 23 15 10 15 17 23 26 17 15 12 18 19 20 24 14 15 18 25 23 17 23 19 27 6 18 18 18 23 18 19 20 24 18 21 18 19 15 24 16 17 20 26 17 15 13 17 17 15 18 14 19 12 11 21 16 14 13 15 15 13 13 17 14 17 14 16 18 10 12 15 9 18 12 8 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0150204 ms
+Loop:2
+KBucket:64
+KCount:25
+0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.015974 ms
+Loop:3
+KBucket:30
+KCount:25
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0150204 ms
+Loop:4
+KBucket:162
+KCount:25
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.015974 ms
+Loop:5
+KBucket:31
+KCount:25
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0150204 ms
+Loop:6
+KBucket:182
+KCount:25
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.015974 ms
+Loop:7
+KBucket:45
+KCount:25
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+New Concatenated Size: 199069
+Time for concatenation:2.22707 ms
+The concatenation of the contributing subranges is done!
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0600815 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.013113 ms
+Loop:0
+KBucket:10
+KCount:1528
+Time for finding bucket count & assignement of bucket to the elements:0.0121593 ms
+Loop:1
+KBucket:73
+KCount:7
+Time for finding bucket count & assignement of bucket to the elements:0.0150204 ms
+depth2
+Time for selecting the top k element is:3.46398 ms
+The kth element from top is:11621
+
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:524288
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.144005 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0269413 ms
+Loop:0
+KBucket:0
+KCount:507212
+507212 7693 2655 1455 922 708 498 377 329 270 169 169 138 150 123 79 114 104 90 52 72 68 70 54 48 53 48 47 37 40 27 24 21 30 28 21 18 55 28 22 8 9 11 10 7 12 7 6 6 3 5 3 3 2 1 7 5 1 1 1 3 2 3 6 2 0 2 0 3 2 0 0 1 0 0 4 1 0 0 2 0 1 0 0 1 3 0 0 2 0 0 2 2 0 0 0 0 1 2 2 1 0 2 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0169277 ms
+Loop:1
+KBucket:132
+KCount:176
+65611 22075 21481 21549 21554 19960 20381 19020 17582 16842 15751 14637 13089 12249 11376 10558 9987 9375 8607 8456 8461 7138 6327 7179 5539 4716 4069 3722 3616 3730 3136 2988 2930 2581 2583 2241 2292 2281 1926 1741 1640 1695 1588 1513 1524 1344 1323 1634 1236 1218 1068 978 1020 973 1012 912 955 922 794 833 752 723 760 720 722 665 739 652 616 575 619 755 606 495 477 497 501 525 517 428 387 452 656 404 419 359 402 380 380 448 425 349 340 337 342 439 387 342 271 298 291 296 304 291 295 291 289 268 280 249 262 249 246 247 249 217 261 219 230 271 221 211 220 231 185 184 200 191 189 169 189 334 176 218 198 187 186 160 182 168 171 165 188 229 179 156 254 193 133 183 164 165 132 136 150 145 143 164 142 144 126 142 145 149 141 117 169 120 100 133 126 125 139 139 121 142 104 129 135 119 128 114 114 120 111 133 113 131 98 94 123 85 106 94 109 102 109 109 104 108 97 109 92 111 83 79 90 89 92 80 149 763 141 116 151 93 125 97 93 83 98 97 93 85 95 93 81 78 100 94 83 91 101 95 105 103 103 96 114 103 103 101 115 80 78 95 92 98 87 94 83 92 106 108 94 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0169277 ms
+Loop:2
+KBucket:29
+KCount:41
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.015974 ms
+Loop:3
+KBucket:105
+KCount:41
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.015974 ms
+Loop:4
+KBucket:226
+KCount:41
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.015974 ms
+Loop:5
+KBucket:3
+KCount:41
+0 0 0 41 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0150204 ms
+Loop:6
+KBucket:119
+KCount:41
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.015974 ms
+Loop:7
+KBucket:54
+KCount:41
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+New Concatenated Size: 427208
+Time for concatenation:2.16389 ms
+The concatenation of the contributing subranges is done!
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0648499 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0169277 ms
+Loop:0
+KBucket:5
+KCount:6971
+Time for finding bucket count & assignement of bucket to the elements:0.0162125 ms
+Loop:1
+KBucket:181
+KCount:23
+Time for finding bucket count & assignement of bucket to the elements:0.0190735 ms
+Loop:2
+KBucket:58
+KCount:5
+Time for finding bucket count & assignement of bucket to the elements:0.0150204 ms
+Loop:3
+KBucket:9
+KCount:5
+Time for finding bucket count & assignement of bucket to the elements:0.0140667 ms
+Loop:4
+KBucket:197
+KCount:5
+Time for finding bucket count & assignement of bucket to the elements:0.0138283 ms
+Loop:5
+KBucket:126
+KCount:5
+Time for finding bucket count & assignement of bucket to the elements:0.014782 ms
+Loop:6
+KBucket:20
+KCount:5
+Time for finding bucket count & assignement of bucket to the elements:0.0150204 ms
+Loop:7
+KBucket:191
+KCount:5
+Time for selecting the top k element is:3.54505 ms
+The kth element from top is:6408
+
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:1048576
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.164032 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0391006 ms
+Loop:0
+KBucket:0
+KCount:1027821
+1027821 9615 3336 1745 1106 820 582 449 378 308 187 191 166 163 143 89 131 118 100 59 80 79 78 59 54 58 51 51 39 44 28 28 21 33 31 21 21 59 29 23 8 10 12 10 8 12 8 7 7 3 5 3 3 2 1 8 5 2 1 1 3 2 3 7 2 0 2 0 3 2 1 0 1 1 0 5 1 0 0 2 0 1 0 0 1 3 0 0 2 0 0 2 2 0 0 0 0 1 2 2 1 0 2 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0259876 ms
+Loop:1
+KBucket:76
+KCount:687
+165819 59076 55535 53352 51371 46887 45610 41339 37577 35265 31842 29750 25897 23145 21253 19409 18216 16812 14990 14773 14283 12060 10396 11747 8698 7337 6440 5843 5712 5858 4754 4662 4475 3940 3816 3402 3386 3480 2788 2576 2450 2474 2241 2169 2192 1936 1912 2371 1808 1728 1518 1416 1433 1445 1453 1318 1367 1291 1119 1162 1038 1017 1093 1015 1020 951 1037 903 882 829 842 989 833 660 661 684 687 720 695 613 547 629 1048 549 562 509 542 522 498 669 585 478 469 483 474 621 541 462 369 395 395 409 416 399 400 397 374 364 368 332 350 336 335 351 369 304 362 320 317 362 305 289 285 310 263 261 262 267 264 225 252 563 240 284 271 257 241 236 250 245 228 225 245 312 234 228 337 240 185 229 210 216 171 191 197 187 181 216 183 196 179 192 189 208 193 164 235 160 149 176 166 172 193 180 172 176 138 177 179 149 170 145 147 162 139 166 148 158 143 124 157 120 148 135 137 129 146 138 133 141 127 143 122 133 109 110 123 124 112 108 177 870 170 149 186 128 158 118 112 107 120 127 123 115 119 123 104 106 130 123 104 121 127 123 127 130 129 128 154 122 127 128 144 98 107 115 118 123 112 123 115 117 124 135 125 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0240803 ms
+Loop:2
+KBucket:114
+KCount:174
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 189 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 174 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 141 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 183 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0231266 ms
+Loop:3
+KBucket:111
+KCount:174
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 174 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0231266 ms
+Loop:4
+KBucket:104
+KCount:174
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 174 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0231266 ms
+Loop:5
+KBucket:254
+KCount:174
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 174 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0228882 ms
+Loop:6
+KBucket:36
+KCount:174
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 174 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0238419 ms
+Loop:7
+KBucket:7
+KCount:174
+0 0 0 0 0 0 0 174 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+New Concatenated Size: 728060
+Time for concatenation:2.28095 ms
+The concatenation of the contributing subranges is done!
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0770092 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0240803 ms
+Loop:0
+KBucket:2
+KCount:30459
+Time for finding bucket count & assignement of bucket to the elements:0.0200272 ms
+Loop:1
+KBucket:224
+KCount:79
+Time for finding bucket count & assignement of bucket to the elements:0.0221729 ms
+Loop:2
+KBucket:108
+KCount:21
+Time for finding bucket count & assignement of bucket to the elements:0.0190735 ms
+Loop:3
+KBucket:114
+KCount:21
+Time for finding bucket count & assignement of bucket to the elements:0.0190735 ms
+Loop:4
+KBucket:195
+KCount:21
+Time for finding bucket count & assignement of bucket to the elements:0.0188351 ms
+Loop:5
+KBucket:76
+KCount:21
+Time for finding bucket count & assignement of bucket to the elements:0.0190735 ms
+Loop:6
+KBucket:118
+KCount:21
+Time for finding bucket count & assignement of bucket to the elements:0.0178814 ms
+Loop:7
+KBucket:223
+KCount:21
+Time for selecting the top k element is:3.93009 ms
+The kth element from top is:3274
+
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:1048576
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.143051 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0369549 ms
+Loop:0
+KBucket:0
+KCount:1027821
+1027821 9615 3336 1745 1106 820 582 449 378 308 187 191 166 163 143 89 131 118 100 59 80 79 78 59 54 58 51 51 39 44 28 28 21 33 31 21 21 59 29 23 8 10 12 10 8 12 8 7 7 3 5 3 3 2 1 8 5 2 1 1 3 2 3 7 2 0 2 0 3 2 1 0 1 1 0 5 1 0 0 2 0 1 0 0 1 3 0 0 2 0 0 2 2 0 0 0 0 1 2 2 1 0 2 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0259876 ms
+Loop:1
+KBucket:34
+KCount:3816
+165819 59076 55535 53352 51371 46887 45610 41339 37577 35265 31842 29750 25897 23145 21253 19409 18216 16812 14990 14773 14283 12060 10396 11747 8698 7337 6440 5843 5712 5858 4754 4662 4475 3940 3816 3402 3386 3480 2788 2576 2450 2474 2241 2169 2192 1936 1912 2371 1808 1728 1518 1416 1433 1445 1453 1318 1367 1291 1119 1162 1038 1017 1093 1015 1020 951 1037 903 882 829 842 989 833 660 661 684 687 720 695 613 547 629 1048 549 562 509 542 522 498 669 585 478 469 483 474 621 541 462 369 395 395 409 416 399 400 397 374 364 368 332 350 336 335 351 369 304 362 320 317 362 305 289 285 310 263 261 262 267 264 225 252 563 240 284 271 257 241 236 250 245 228 225 245 312 234 228 337 240 185 229 210 216 171 191 197 187 181 216 183 196 179 192 189 208 193 164 235 160 149 176 166 172 193 180 172 176 138 177 179 149 170 145 147 162 139 166 148 158 143 124 157 120 148 135 137 129 146 138 133 141 127 143 122 133 109 110 123 124 112 108 177 870 170 149 186 128 158 118 112 107 120 127 123 115 119 123 104 106 130 123 104 121 127 123 127 130 129 128 154 122 127 128 144 98 107 115 118 123 112 123 115 117 124 135 125 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0240803 ms
+Loop:2
+KBucket:225
+KCount:885
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 953 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 981 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 997 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 885 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0240803 ms
+Loop:3
+KBucket:132
+KCount:885
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 885 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0240803 ms
+Loop:4
+KBucket:137
+KCount:885
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 885 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.025034 ms
+Loop:5
+KBucket:9
+KCount:885
+0 0 0 0 0 0 0 0 0 885 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0238419 ms
+Loop:6
+KBucket:130
+KCount:885
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 885 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.0231266 ms
+Loop:7
+KBucket:81
+KCount:885
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 885 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+New Concatenated Size: 1542301
+Time for concatenation:2.29692 ms
+The concatenation of the contributing subranges is done!
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0989437 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0398159 ms
+Loop:0
+KBucket:1
+KCount:81850
+Time for finding bucket count & assignement of bucket to the elements:0.0350475 ms
+Loop:1
+KBucket:132
+KCount:262
+Time for finding bucket count & assignement of bucket to the elements:0.0360012 ms
+Loop:2
+KBucket:228
+KCount:68
+Time for finding bucket count & assignement of bucket to the elements:0.0331402 ms
+Loop:3
+KBucket:51
+KCount:68
+Time for finding bucket count & assignement of bucket to the elements:0.0329018 ms
+Loop:4
+KBucket:169
+KCount:68
+Time for finding bucket count & assignement of bucket to the elements:0.0329018 ms
+Loop:5
+KBucket:17
+KCount:68
+Time for finding bucket count & assignement of bucket to the elements:0.0319481 ms
+Loop:6
+KBucket:197
+KCount:68
+Time for finding bucket count & assignement of bucket to the elements:0.0329018 ms
+Loop:7
+KBucket:105
+KCount:68
+Time for selecting the top k element is:4.05002 ms
+The kth element from top is:1708
+
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:2097152
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.216007 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.133038 ms
+Loop:0
+KBucket:0
+KCount:4152306
+4152306 20199 7015 3608 2112 1595 1136 860 660 550 338 346 283 293 267 175 261 212 170 100 137 134 155 110 89 109 85 84 64 79 46 50 39 60 55 35 36 92 50 34 12 14 15 14 18 20 11 15 10 5 6 3 3 3 5 13 5 3 1 2 5 3 6 13 3 0 2 1 4 2 1 0 1 1 0 7 2 0 0 2 0 1 0 1 2 4 0 0 3 0 0 3 3 0 0 0 0 1 3 2 1 0 2 1 0 0 0 0 0 1 0 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.128031 ms
+Loop:1
+KBucket:40
+KCount:6114
+925097 332717 277861 251699 234667 204853 188056 168554 146490 132925 116054 107145 92134 77335 70705 64405 57535 52414 45168 44775 40205 34316 29125 32835 22736 19818 17276 15582 15348 16121 12156 12571 11434 10646 9669 8512 8777 8940 6905 6098 6114 5867 5433 5242 5276 4800 4816 5939 4220 4171 3669 3520 3643 3609 3491 3071 3356 2945 2638 2754 2444 2411 2657 2494 2387 2244 2439 2205 2133 1864 1942 2235 2017 1517 1479 1618 1729 1742 1621 1426 1289 1573 2919 1269 1296 1202 1276 1199 1164 1992 1351 1086 1162 1190 1063 1447 1144 996 880 910 938 960 975 885 931 879 813 788 803 734 769 816 843 930 921 822 825 764 774 889 734 716 670 704 602 600 595 607 616 526 558 1844 610 703 602 616 554 549 571 571 519 582 554 690 542 557 747 497 428 501 484 466 418 454 428 444 382 474 422 409 390 399 398 415 423 407 516 368 357 391 369 395 421 393 378 385 329 414 393 366 393 336 326 342 324 373 334 370 333 324 385 291 310 325 290 302 316 301 297 311 277 314 280 295 257 263 250 261 261 269 339 1250 356 316 408 294 303 267 247 253 257 272 252 235 267 269 252 256 263 263 241 292 286 277 275 282 256 259 333 270 280 276 280 230 232 242 253 242 261 245 248 242 283 267 268 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.120878 ms
+Loop:2
+KBucket:83
+KCount:1541
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1475 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1541 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1573 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1525 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.119925 ms
+Loop:3
+KBucket:120
+KCount:1541
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1541 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.121117 ms
+Loop:4
+KBucket:169
+KCount:1541
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1541 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.121117 ms
+Loop:5
+KBucket:68
+KCount:1541
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1541 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.120878 ms
+Loop:6
+KBucket:221
+KCount:1541
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1541 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.118971 ms
+Loop:7
+KBucket:50
+KCount:1541
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1541 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+New Concatenated Size: 1375353
+Time for concatenation:0.138998 ms
+The concatenation of the contributing subranges is done!
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0941753 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.0350475 ms
+Loop:0
+KBucket:0
+KCount:1170346
+Time for finding bucket count & assignement of bucket to the elements:0.0331402 ms
+Loop:1
+KBucket:209
+KCount:1438
+Time for finding bucket count & assignement of bucket to the elements:0.0288486 ms
+Loop:2
+KBucket:204
+KCount:345
+Time for finding bucket count & assignement of bucket to the elements:0.0281334 ms
+Loop:3
+KBucket:75
+KCount:345
+Time for finding bucket count & assignement of bucket to the elements:0.0288486 ms
+Loop:4
+KBucket:129
+KCount:345
+Time for finding bucket count & assignement of bucket to the elements:0.0290871 ms
+Loop:5
+KBucket:178
+KCount:345
+Time for finding bucket count & assignement of bucket to the elements:0.0300407 ms
+Loop:6
+KBucket:94
+KCount:345
+Time for finding bucket count & assignement of bucket to the elements:0.027895 ms
+Loop:7
+KBucket:200
+KCount:345
+Time for selecting the top k element is:5.01108 ms
+The kth element from top is:848
+
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:2097152
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.247955 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.140905 ms
+Loop:0
+KBucket:0
+KCount:4152306
+4152306 20199 7015 3608 2112 1595 1136 860 660 550 338 346 283 293 267 175 261 212 170 100 137 134 155 110 89 109 85 84 64 79 46 50 39 60 55 35 36 92 50 34 12 14 15 14 18 20 11 15 10 5 6 3 3 3 5 13 5 3 1 2 5 3 6 13 3 0 2 1 4 2 1 0 1 1 0 7 2 0 0 2 0 1 0 1 2 4 0 0 3 0 0 3 3 0 0 0 0 1 3 2 1 0 2 1 0 0 0 0 0 1 0 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.128031 ms
+Loop:1
+KBucket:22
+KCount:29125
+925097 332717 277861 251699 234667 204853 188056 168554 146490 132925 116054 107145 92134 77335 70705 64405 57535 52414 45168 44775 40205 34316 29125 32835 22736 19818 17276 15582 15348 16121 12156 12571 11434 10646 9669 8512 8777 8940 6905 6098 6114 5867 5433 5242 5276 4800 4816 5939 4220 4171 3669 3520 3643 3609 3491 3071 3356 2945 2638 2754 2444 2411 2657 2494 2387 2244 2439 2205 2133 1864 1942 2235 2017 1517 1479 1618 1729 1742 1621 1426 1289 1573 2919 1269 1296 1202 1276 1199 1164 1992 1351 1086 1162 1190 1063 1447 1144 996 880 910 938 960 975 885 931 879 813 788 803 734 769 816 843 930 921 822 825 764 774 889 734 716 670 704 602 600 595 607 616 526 558 1844 610 703 602 616 554 549 571 571 519 582 554 690 542 557 747 497 428 501 484 466 418 454 428 444 382 474 422 409 390 399 398 415 423 407 516 368 357 391 369 395 421 393 378 385 329 414 393 366 393 336 326 342 324 373 334 370 333 324 385 291 310 325 290 302 316 301 297 311 277 314 280 295 257 263 250 261 261 269 339 1250 356 316 408 294 303 267 247 253 257 272 252 235 267 269 252 256 263 263 241 292 286 277 275 282 256 259 333 270 280 276 280 230 232 242 253 242 261 245 248 242 283 267 268 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.121832 ms
+Loop:2
+KBucket:4
+KCount:8144
+0 0 0 0 8144 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7150 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7023 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6808 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.120878 ms
+Loop:3
+KBucket:230
+KCount:8144
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8144 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.118971 ms
+Loop:4
+KBucket:37
+KCount:8144
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8144 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.120163 ms
+Loop:5
+KBucket:170
+KCount:8144
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8144 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.121117 ms
+Loop:6
+KBucket:147
+KCount:8144
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8144 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.123978 ms
+Loop:7
+KBucket:93
+KCount:8144
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8144 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.119925 ms
+Loop:8
+KBucket:255
+KCount:8144
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8144 
+
+
+New Concatenated Size: 2847013
+Time for concatenation:0.250101 ms
+The concatenation of the contributing subranges is done!
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:0.135899 ms
+Time for finding bucket count & assignement of bucket to the elements:0.0910759 ms
+Time for copying elements0.173092 ms
+loop:1
+Time for finding max min:0.133991 ms
+Time for finding bucket count & assignement of bucket to the elements:0.0851154 ms
+Time for copying elements0.0829697 ms
+
+
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0448227 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.00905991 ms
+Loop:0
+KBucket:253
+KCount:1908
+Time for finding bucket count & assignement of bucket to the elements:0.00810623 ms
+Loop:1
+KBucket:219
+KCount:857
+Time for finding bucket count & assignement of bucket to the elements:0.00905991 ms
+Loop:2
+KBucket:181
+KCount:857
+Time for finding bucket count & assignement of bucket to the elements:0.00786781 ms
+Loop:3
+KBucket:1
+KCount:857
+Time for finding bucket count & assignement of bucket to the elements:0.00905991 ms
+Loop:4
+KBucket:35
+KCount:857
+Time for finding bucket count & assignement of bucket to the elements:0.00786781 ms
+Loop:5
+KBucket:74
+KCount:857
+Time for finding bucket count & assignement of bucket to the elements:0.00810623 ms
+Loop:6
+KBucket:8
+KCount:857
+Time for selecting the top k element is:6.22487 ms
+The kth element from top is:446
+
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:2097152
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.239134 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.139952 ms
+Loop:0
+KBucket:0
+KCount:4152306
+4152306 20199 7015 3608 2112 1595 1136 860 660 550 338 346 283 293 267 175 261 212 170 100 137 134 155 110 89 109 85 84 64 79 46 50 39 60 55 35 36 92 50 34 12 14 15 14 18 20 11 15 10 5 6 3 3 3 5 13 5 3 1 2 5 3 6 13 3 0 2 1 4 2 1 0 1 1 0 7 2 0 0 2 0 1 0 1 2 4 0 0 3 0 0 3 3 0 0 0 0 1 3 2 1 0 2 1 0 0 0 0 0 1 0 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.129938 ms
+Loop:1
+KBucket:12
+KCount:92134
+925097 332717 277861 251699 234667 204853 188056 168554 146490 132925 116054 107145 92134 77335 70705 64405 57535 52414 45168 44775 40205 34316 29125 32835 22736 19818 17276 15582 15348 16121 12156 12571 11434 10646 9669 8512 8777 8940 6905 6098 6114 5867 5433 5242 5276 4800 4816 5939 4220 4171 3669 3520 3643 3609 3491 3071 3356 2945 2638 2754 2444 2411 2657 2494 2387 2244 2439 2205 2133 1864 1942 2235 2017 1517 1479 1618 1729 1742 1621 1426 1289 1573 2919 1269 1296 1202 1276 1199 1164 1992 1351 1086 1162 1190 1063 1447 1144 996 880 910 938 960 975 885 931 879 813 788 803 734 769 816 843 930 921 822 825 764 774 889 734 716 670 704 602 600 595 607 616 526 558 1844 610 703 602 616 554 549 571 571 519 582 554 690 542 557 747 497 428 501 484 466 418 454 428 444 382 474 422 409 390 399 398 415 423 407 516 368 357 391 369 395 421 393 378 385 329 414 393 366 393 336 326 342 324 373 334 370 333 324 385 291 310 325 290 302 316 301 297 311 277 314 280 295 257 263 250 261 261 269 339 1250 356 316 408 294 303 267 247 253 257 272 252 235 267 269 252 256 263 263 241 292 286 277 275 282 256 259 333 270 280 276 280 230 232 242 253 242 261 245 248 242 283 267 268 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.123024 ms
+Loop:2
+KBucket:157
+KCount:23598
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24057 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22883 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23598 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21596 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.119925 ms
+Loop:3
+KBucket:134
+KCount:23598
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23598 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.121117 ms
+Loop:4
+KBucket:190
+KCount:23598
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23598 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.120878 ms
+Loop:5
+KBucket:160
+KCount:23598
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23598 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.119925 ms
+Loop:6
+KBucket:199
+KCount:23598
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23598 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.12207 ms
+Loop:7
+KBucket:14
+KCount:23598
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 23598 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.121117 ms
+Loop:8
+KBucket:0
+KCount:23598
+23598 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+New Concatenated Size: 6403135
+Time for concatenation:0.488997 ms
+The concatenation of the contributing subranges is done!
+In Phase I: Reduction of vector!
+loop:0
+Time for finding max min:0.233889 ms
+Time for finding bucket count & assignement of bucket to the elements:0.197887 ms
+Time for copying elements0.375986 ms
+loop:1
+Time for finding max min:0.235081 ms
+Time for finding bucket count & assignement of bucket to the elements:0.184059 ms
+Time for copying elements0.18692 ms
+
+
+In Phase II: Inplace Bucket select
+Time for finding max min:0.0450611 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.00905991 ms
+Loop:0
+KBucket:63
+KCount:4470
+Time for finding bucket count & assignement of bucket to the elements:0.00882149 ms
+Loop:1
+KBucket:191
+KCount:4470
+Time for finding bucket count & assignement of bucket to the elements:0.00882149 ms
+Loop:2
+KBucket:63
+KCount:4470
+Time for finding bucket count & assignement of bucket to the elements:0.00905991 ms
+Loop:3
+KBucket:191
+KCount:4470
+Time for finding bucket count & assignement of bucket to the elements:0.0100136 ms
+Loop:4
+KBucket:63
+KCount:4470
+Time for finding bucket count & assignement of bucket to the elements:0.00786781 ms
+Loop:5
+KBucket:192
+KCount:4470
+Time for selecting the top k element is:7.09987 ms
+The kth element from top is:207
+
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:2097152
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.211954 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.133991 ms
+Loop:0
+KBucket:0
+KCount:4152306
+4152306 20199 7015 3608 2112 1595 1136 860 660 550 338 346 283 293 267 175 261 212 170 100 137 134 155 110 89 109 85 84 64 79 46 50 39 60 55 35 36 92 50 34 12 14 15 14 18 20 11 15 10 5 6 3 3 3 5 13 5 3 1 2 5 3 6 13 3 0 2 1 4 2 1 0 1 1 0 7 2 0 0 2 0 1 0 1 2 4 0 0 3 0 0 3 3 0 0 0 0 1 3 2 1 0 2 1 0 0 0 0 0 1 0 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.129223 ms
+Loop:1
+KBucket:5
+KCount:204853
+925097 332717 277861 251699 234667 204853 188056 168554 146490 132925 116054 107145 92134 77335 70705 64405 57535 52414 45168 44775 40205 34316 29125 32835 22736 19818 17276 15582 15348 16121 12156 12571 11434 10646 9669 8512 8777 8940 6905 6098 6114 5867 5433 5242 5276 4800 4816 5939 4220 4171 3669 3520 3643 3609 3491 3071 3356 2945 2638 2754 2444 2411 2657 2494 2387 2244 2439 2205 2133 1864 1942 2235 2017 1517 1479 1618 1729 1742 1621 1426 1289 1573 2919 1269 1296 1202 1276 1199 1164 1992 1351 1086 1162 1190 1063 1447 1144 996 880 910 938 960 975 885 931 879 813 788 803 734 769 816 843 930 921 822 825 764 774 889 734 716 670 704 602 600 595 607 616 526 558 1844 610 703 602 616 554 549 571 571 519 582 554 690 542 557 747 497 428 501 484 466 418 454 428 444 382 474 422 409 390 399 398 415 423 407 516 368 357 391 369 395 421 393 378 385 329 414 393 366 393 336 326 342 324 373 334 370 333 324 385 291 310 325 290 302 316 301 297 311 277 314 280 295 257 263 250 261 261 269 339 1250 356 316 408 294 303 267 247 253 257 272 252 235 267 269 252 256 263 263 241 292 286 277 275 282 256 259 333 270 280 276 280 230 232 242 253 242 261 245 248 242 283 267 268 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.12517 ms
+Loop:2
+KBucket:112
+KCount:53450
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 51611 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53450 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52041 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47751 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.123024 ms
+Loop:3
+KBucket:243
+KCount:53450
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53450 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.123024 ms
+Loop:4
+KBucket:32
+KCount:53450
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53450 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.12207 ms
+Loop:5
+KBucket:59
+KCount:53450
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53450 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.12207 ms
+Loop:6
+KBucket:90
+KCount:53450
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53450 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.121117 ms
+Loop:7
+KBucket:220
+KCount:53450
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53450 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.123024 ms
+Loop:8
+KBucket:255
+KCount:53450
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53450 
+
+
+
+an illegal memory access was encountered in bucketselect_combined.cuh at line 1056
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:4194304
+0
+In Phase II: Inplace Bucket select
+Time for finding max min:0.360012 ms
+Time for finding Bucket Count & assignement of bucket to the elements:0.262976 ms
+Loop:0
+KBucket:0
+KCount:8332613
+8332613 27409 9607 4776 2761 2092 1469 1100 829 665 432 443 322 372 335 213 361 256 209 121 164 154 204 137 105 137 108 110 75 104 55 68 43 69 63 42 48 111 67 38 12 18 19 14 32 20 11 21 10 5 6 3 4 3 5 13 5 3 1 2 8 3 6 15 3 0 2 1 4 2 1 0 1 1 0 11 2 0 0 2 0 1 0 1 2 4 0 0 3 0 0 5 6 0 0 0 0 1 5 2 1 0 2 1 0 0 0 0 0 2 0 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.254154 ms
+Loop:1
+KBucket:3
+KCount:534108
+2318672 758224 593089 534108 482534 405666 362558 318718 266725 237960 203455 190173 158152 129678 119459 106409 92768 84384 71984 71398 61375 52811 44723 49239 34258 30752 25986 23094 23045 24895 17934 19332 17064 16208 13959 12434 12469 13457 9948 8532 8617 8119 8129 7661 7620 6922 6979 8792 5970 5906 5174 5201 5264 5119 4802 4274 4910 4026 3597 3894 3524 3388 3772 3557 3428 3157 3599 3198 3074 2554 2596 3069 2967 2151 2071 2415 2503 2434 2191 1935 1802 2561 4365 1859 1760 1660 1724 1592 1748 3187 1964 1572 1635 1665 1499 2004 1543 1315 1232 1247 1293 1366 1308 1226 1294 1186 1124 1125 1104 1023 1048 1144 1265 1407 1337 1203 1159 1057 1063 1268 1015 970 935 957 858 835 814 823 817 762 778 3407 993 974 821 894 762 749 783 825 692 798 767 936 733 734 1069 686 603 678 629 644 573 605 577 635 540 641 552 570 503 561 554 579 595 571 675 539 466 529 519 529 555 529 514 529 455 568 553 516 583 457 473 480 441 492 455 492 454 485 555 434 436 426 402 409 453 434 417 432 379 415 396 401 342 369 350 380 337 391 468 1397 442 426 545 417 397 368 336 348 335 357 335 333 345 372 351 345 336 360 314 365 386 364 372 374 325 340 451 364 364 361 355 307 302 326 332 305 341 317 335 310 353 335 337 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.241041 ms
+Loop:2
+KBucket:244
+KCount:138054
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 133885 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 132415 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129754 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138054 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.234842 ms
+Loop:3
+KBucket:107
+KCount:138054
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138054 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.236988 ms
+Loop:4
+KBucket:69
+KCount:138054
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138054 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.236988 ms
+Loop:5
+KBucket:205
+KCount:138054
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138054 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.236988 ms
+Loop:6
+KBucket:112
+KCount:138054
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138054 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.237942 ms
+Loop:7
+KBucket:114
+KCount:138054
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138054 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Time for finding bucket count & assignement of bucket to the elements:0.236034 ms
+Loop:8
+KBucket:85
+KCount:138054
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138054 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+
+an illegal memory access was encountered in bucketselect_combined.cuh at line 1056
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:4194304
+Current alpha: 4
+Small number of subranges!. Decrease the value of alpha!
+0
+
+out of memory in main.cu at line 165
+./exe num_element k NBucket scoreFile output_file
+Number of Subranges:8388608
+Current alpha: 3
+Small number of subranges!. Decrease the value of alpha!
+0
+
+out of memory in main.cu at line 165
