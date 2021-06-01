@@ -1,4 +1,4 @@
-# DrTopKSC
+# DrTopK
 ----
 Software
 
