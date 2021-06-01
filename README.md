@@ -37,5 +37,13 @@ Additional information on different versions:
 
 Top-k versions are classified as the folders name. Baseline, baseline+filter+shuffle, baseline+filter+beta,  baseline+filter+beta+shuffle are radix select versions with different optimizations. **baseline+filter+beta+shuffle** is the final radix select version. The running bash scripts are present in the respective folders.
 
-The bitonic top-k is in home directory of bitonic folder. Other subdirectories contains different modified versions to accomodate large k in bitonic top-k. Real world datasets are in the respective versions testings.
+The bitonic top-k is in home directory of bitonic folder. Other subdirectories contains different modified versions to accomodate large k in bitonic top-k. Real world datasets are in the respective versions testings. In bitonic version the user can enter alpha from the command line.
 
+----
+Dataset generation: We used std::uniform_int_distribution, std::normal_distribution a customized distribution (code to generate the customized distribution in included in the folder). The real world datasets are processed as mentioned in the paper and loaded to run the tests. The state of the art tools are also updated during data generation to run with the same datasets that Dr.Top-k uses.
+
+
+Estimated run time:
+It will take approximately half an hour for a version for all k tests to run. For bitonic we have to switch between different versions because, they are designed in order to deliver the optimum performance for different values of k.
+
+-----
