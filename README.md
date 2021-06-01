@@ -18,9 +18,11 @@ Titan Xp, V100 (tested), Summit supercomputer for multi-GPU multi-node version (
 --
 Compile
 
-Inside the folders type: (baseline+filter+beta+shuffle contains final radix select version)
+Inside the folders type:
 
 make
+
+Note: baseline+filter+beta+shuffle contains final radix top-k version
 
 ------
 --
