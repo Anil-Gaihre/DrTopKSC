@@ -1,0 +1,22 @@
+#!/bin/bash
+### Begin BSUB Options
+#BSUB -P CSC289
+#BSUB -J TopKMultiGPUN_NNodes_1
+#BSUB -W 02:00
+#BSUB -nnodes 1
+#BSUB -alloc_flags "smt1"
+### End BSUB Options and begin shell commands
+module load cuda
+# module load ddt
+N=30
+k=128 
+beta=2
+declare -a arr=("GPU_1_N30_ASYNC_APR6" "GPU_2_N30_ASYNC_APR6" "GPU_4_N30_ASYNC_APR6" "baseline" "U_K16" "U_K31" "U_K64" "U_K128" "U_K256" "U_K512")
+
+	jsrun --nrs 1 --tasks_per_rs 4 --cpu_per_rs 42 --gpu_per_rs 4 --rs_per_host 1 ./topk.bin 30 128 8 2 4 1 >> N_Node_1_N30_ASYNC_Rebuttal.dat
+
+	jsrun --nrs 1 --tasks_per_rs 4 --cpu_per_rs 42 --gpu_per_rs 4 --rs_per_host 1 ./topk.bin 31 128 8 2 4 1 >> N_Node_1_N31_ASYNC_Rebuttal.dat
+
+	jsrun --nrs 1 --tasks_per_rs 4 --cpu_per_rs 42 --gpu_per_rs 4 --rs_per_host 1 ./topk.bin 32 128 8 2 4 1 >> N_Node_1_N32_ASYNC_Rebuttal.dat
+
+	jsrun --nrs 1 --tasks_per_rs 4 --cpu_per_rs 42 --gpu_per_rs 4 --rs_per_host 1 ./topk.bin 33 128 8 2 4 1 >> N_Node_1_N33_ASYNC_Rebuttal.dat
