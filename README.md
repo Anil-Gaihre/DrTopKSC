@@ -47,3 +47,7 @@ Estimated run time:
 It will take approximately half an hour for a version for all k tests to run. For bitonic we have to switch between different versions because, they are designed in order to deliver the optimum performance for different values of k.
 
 -----
+
+Others: We also added a modified code (alphaManualTuning folder) where the user can manually enter the value of alpha and see how the performance vary with it.
+
+-----
