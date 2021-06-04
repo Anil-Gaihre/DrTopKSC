@@ -32,7 +32,8 @@ Type: "./topk.bin" it will show you what is needed.
 
 Tips: log2(|V|), k, Bits per digit in Radix = 8, beta=2, Note: |V| and k are power of 2   
 
-Example run: make test
+**Example test:** make test
+
 ------
 
 **Additional information on different versions:**
