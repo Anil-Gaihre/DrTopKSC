@@ -53,8 +53,7 @@ For bitonic we have to switch between different versions because, they are desig
 
 The real world datasets are read from an external file. It takes time to load the files given they are larger in size. It should take about 3-4 minutes per k (Total about 1.5 hour) to run for real world dataset.
 
-**Scripts (names/links) to use for setup/evaluation:**
-The scripts (names/links) to use for setup/evaluation in the artifact description. Respective folders have required scripts “run.bash” in them. For instance, the Dr.Top-k assisted radix top-k (all optimizations included) version has the script run.bash at the location, 
+**Scripts (names/links) to use for setup/evaluation:** Respective folders have required scripts “run.bash” in them. For instance, the Dr.Top-k assisted radix top-k (all optimizations included) version has the script run.bash at the location, /baseline+filter+beta+shuffle/run.bash
 
  
 -----
