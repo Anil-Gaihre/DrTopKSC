@@ -50,7 +50,7 @@ It is relatively faster to test test the performance of Dr.Top-k assisted radix 
 
 For bitonic we have to switch between different versions because, they are designed in order to deliver the optimum performance for different values of k. Also we assign alpha to the bitonic through the commandline. The value of alpha is about 16 to 5 for different for increasing k from 2^0 to 2^24. (Total about 1-1.5 hours)
 
-The real world datasets are read from an external file. It takes time to load the files given they are larger in size. It should take about 3-4 minutes per k (Total about 1 hour) to run for real world dataset.
+The real world datasets are read from an external file. It takes time to load the files given they are larger in size. It should take about 3-4 minutes per k (Total about 1.5 hour) to run for real world dataset.
  
 -----
 
