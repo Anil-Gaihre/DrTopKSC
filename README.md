@@ -42,7 +42,7 @@ Top-k versions are classified as the folders name. Baseline, baseline+filter+shu
 The bitonic top-k is in home directory of bitonic folder. Other subdirectories contains different modified versions to accomodate large k in bitonic top-k. Real world datasets are in the respective versions testings. In bitonic version the user enters alpha from the command line.
 
 ----
-Dataset generation: We used std::uniform_int_distribution, std::normal_distribution a customized distribution (code to generate the customized distribution in included in the folder). The real world datasets are processed as mentioned in the paper and loaded to run the tests. The state of the art tools are also updated during data generation to run with the same datasets that Dr.Top-k uses.
+Dataset generation: We used std::uniform_int_distribution, std::normal_distribution a customized distribution (code to generate the customized distribution in included in the folder). The real world datasets (https://drive.google.com/drive/folders/1lc6iPOIOn0CIABboBxNIjZjLOsoxlVfM) are processed as mentioned in the paper and loaded to run the tests. Note, for binary dataset, we should use the code inside the folders "Binary dataets". The state of the art tools are also updated during data generation to run with the same datasets that Dr.Top-k uses.
 
 
 Estimated run time:
