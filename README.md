@@ -46,8 +46,8 @@ Dataset generation: We used std::uniform_int_distribution, std::normal_distribut
 
 
 Estimated run time:
-It will take approximately half an hour for a version for all k tests to run. For bitonic we have to switch between different versions because, they are designed in order to deliver the optimum performance for different values of k.
-
+It will take approximately half an hour for a version (Dr.Top-k assisted radix (baseline+filter+beta+shuffle) and bucket_select for all k tests to run. For bitonic we have to switch between different versions because, they are designed in order to deliver the optimum performance for different values of k. Also we assign alpha to the bitonic through the commandline. The value of alpha is about 16 to 5 for different for increasing k from 2^0 to 2^24.
+ 
 -----
 
 Others: We also added a modified code (alphaManualTuning folder) where the user can manually enter the value of alpha and see how the performance vary with it.
