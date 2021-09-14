@@ -97,8 +97,8 @@ cout<<"Calculated alpha: "<<alpha<<endl;
 		int minvalue=2147483643;
 		
 		// std::normal_distribution<float> d(100000000, 10);//Mean =100 mill , sd=100
-		std::normal_distribution<float> d(100000000, 10000000);//Mean =100 mill , sd=100
-		// std::uniform_int_distribution <unsigned int> d(0, 4294967295);
+		//std::normal_distribution<float> d(100000000, 10000000);//Mean =100 mill , sd=100
+		 std::uniform_int_distribution <unsigned int> d(0, 4294967295);
 
 		//    for (int dis=3;dis<4;dis++)
 		//        {
@@ -298,8 +298,8 @@ cout<<"Calculated alpha: "<<alpha<<endl;
 			//  timeLog.open("N_29UniformDistributedAutoTuneAdaptive22Feb_TitanSorted_Unsorted.csv",std::fstream::out | std::fstream::app);
 			//         timeLog.open("N_29TestingFor2^32.csv",std::fstream::out | std::fstream::app);
 			// timeLog.open("U_VectorSize_VaryingK2^29.csv",std::fstream::out | std::fstream::app);
-			timeLog.open("FirstTopK3DigitsSkipped_NORMAL_ALL_K.csv",std::fstream::out | std::fstream::app);
-			// timeLog.open("FirstTopK3DigitsSkipped_Uniform.csv",std::fstream::out | std::fstream::app);
+			//timeLog.open("FirstTopK3DigitsSkipped_NORMAL_ALL_K.csv",std::fstream::out | std::fstream::app);
+			 timeLog.open("FirstTopK3DigitsSkipped_Uniform.csv",std::fstream::out | std::fstream::app);
 			// timeLog.open("U_beta_tuning.csv",std::fstream::out | std::fstream::app);
 			if  (defaultContribution)
 			{
